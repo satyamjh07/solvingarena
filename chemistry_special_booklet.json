@@ -1,0 +1,299 @@
+{
+  "Periodic Trends Advanced": [
+    {
+      "id": 1,
+      "type": "assertion_reason",
+      "question": {
+        "assertion": "The first ionization energy of nitrogen is higher than that of oxygen.",
+        "reason": "Nitrogen has a stable half-filled $2p^3$ configuration which provides extra stability due to exchange energy."
+      },
+      "options": {
+        "A": "Both (A) and (R) are true but (R) is not the correct explanation of (A)",
+        "B": "(A) is false but (R) is true",
+        "C": "(A) is true but (R) is false",
+        "D": "Both (A) and (R) are true and (R) is the correct explanation of (A)"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 2,
+      "type": "mcq",
+      "question": "Which of the following represents the correct trend for the mentioned property?",
+      "statements": {
+        "A": "F > Cl > Br > I — First Ionization Energy",
+        "B": "S > O > Se > Te — Electron Affinity (magnitude)",
+        "C": "Li < Na < K < Rb — Atomic radius",
+        "D": "B < C < N < O — First Ionization Energy"
+      },
+      "options": {
+        "A": "A and C only",
+        "B": "A, C and D only",
+        "C": "A, B and C only",
+        "D": "B and D only"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 3,
+      "type": "numerical",
+      "question": "Among the following species: $Na^+, Mg^{2+}, Al^{3+}, O^{2-}, F^-, Ne, N^{3-}$. The number of species that are isoelectronic with Ne and have ionic radius greater than Ne atomic radius is ____.",
+      "answer": 3
+    },
+    {
+      "id": 4,
+      "type": "mcq",
+      "question": {
+        "statement_1": "The correct order of first ionization enthalpy is $B < Be < N < O$.",
+        "statement_2": "The correct order of atomic radii is $Li > B > C > N$."
+      },
+      "options": {
+        "A": "Statement I is false but Statement II is true",
+        "B": "Both Statement I and Statement II are false",
+        "C": "Both Statement I and Statement II are true",
+        "D": "Statement I is true but Statement II is false"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 5,
+      "type": "mcq",
+      "question": {
+        "statement_1": "The correct order of electronegativity (Pauling scale) is $F > O > Cl > N$.",
+        "statement_2": "The electron gain enthalpy of nitrogen is more negative than that of oxygen."
+      },
+      "options": {
+        "A": "Statement I is true but Statement II is false",
+        "B": "Both Statement I and Statement II are false",
+        "C": "Both Statement I and Statement II are true",
+        "D": "Statement I is false but Statement II is true"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 6,
+      "type": "assertion_reason",
+      "question": {
+        "assertion": "The first ionization enthalpy of nitrogen is higher than that of oxygen.",
+        "reason": "Nitrogen has a stable half-filled $2p^3$ configuration, and removing an electron from this configuration requires extra energy."
+      },
+      "options": {
+        "A": "(A) is false but (R) is true",
+        "B": "(A) is true but (R) is false",
+        "C": "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+        "D": "Both (A) and (R) are true but (R) is not the correct explanation of (A)"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 7,
+      "type": "mcq",
+      "question": "Which of the following statements are correct? I. Electron gain enthalpy of fluorine is less negative than that of chlorine. II. The second ionization enthalpy of sodium is much higher than its first ionization enthalpy. III. Across a period, both ionization enthalpy and electron gain enthalpy generally increase. IV. Among halogens, iodine has the highest electron gain enthalpy.",
+      "options": {
+        "A": "I, II and III only",
+        "B": "II and III only",
+        "C": "I and II only",
+        "D": "I, II, III and IV"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 8,
+      "type": "assertion_reason",
+      "question": {
+        "assertion": "The first ionization enthalpy of Be is higher than that of B.",
+        "reason": "Be has a completely filled $2s$ orbital which is more stable than the partially filled $2p$ orbital of B."
+      },
+      "options": {
+        "A": "Both (A) and (R) are false",
+        "B": "Both (A) and (R) are true but (R) is NOT the correct explanation",
+        "C": "Both (A) and (R) are true and (R) is the correct explanation",
+        "D": "(A) is false but (R) is true"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 9,
+      "type": "mcq",
+      "question": {
+        "statement_1": "Among all halogens, fluorine has the most negative electron gain enthalpy.",
+        "statement_2": "Among group 16 elements, oxygen has the smallest atomic radius."
+      },
+      "options": {
+        "A": "Statement I is true but Statement II is false",
+        "B": "Both Statement I and Statement II are true",
+        "C": "Statement I is false but Statement II is true",
+        "D": "Both Statement I and Statement II are false"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 10,
+      "type": "mcq",
+      "question": {
+        "statement_1": "The first ionization enthalpy of Zn is higher than that of Ga.",
+        "statement_2": "The second ionization enthalpy of Zn is higher than that of Ga."
+      },
+      "options": {
+        "A": "Both true",
+        "B": "Both false",
+        "C": "Statement I true, Statement II false",
+        "D": "Statement I false, Statement II true"
+      },
+      "answer": "C"
+    }
+  ],
+  "Chemical Bonding Master Sheet": [
+    {
+      "id": 1,
+      "type": "mcq",
+      "question": {
+        "statement_1": "Among $NH_3, PH_3, AsH_3$ and $SbH_3$, only $NH_3$ has bond angle greater than $100^\\circ$.",
+        "statement_2": "$PCl_5$ has trigonal bipyramidal geometry with three equatorial shorter bonds and two axial longer bonds."
+      },
+      "options": {
+        "A": "Statement I is true but Statement II is false",
+        "B": "Statement I is false but Statement II is true",
+        "C": "Both Statement I and Statement II are false",
+        "D": "Both Statement I and Statement II are true"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 2,
+      "type": "numerical",
+      "question": "Among $BF_3, BCl_3, AlCl_3, SiF_4, PCl_3, SF_6, XeF_4, IF_5$, the number of species that can act as Lewis acids is ____.",
+      "answer": 4
+    },
+    {
+      "id": 3,
+      "type": "mcq",
+      "question": {
+        "statement_1": "Bond angle in $H_2O$ ($104.5^\\circ$) is less than $NH_3$ ($107^\\circ$) because oxygen has more lone pairs.",
+        "statement_2": "All molecules with $sp^3$ hybridization have bond angle $109.5^\\circ$."
+      },
+      "options": {
+        "A": "Both Statement I and Statement II are true",
+        "B": "Both Statement I and Statement II are false",
+        "C": "Statement I is true but Statement II is false",
+        "D": "Statement I is false but Statement II is true"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 4,
+      "type": "mcq",
+      "question": {
+        "statement_1": "$SF_4$, $ClF_3$ and $XeF_2$ have irregular geometry due to lone pairs.",
+        "statement_2": "In molecules with lone pairs, actual geometry differs from electron pair geometry."
+      },
+      "options": {
+        "A": "Statement I is false but Statement II is true",
+        "B": "Both Statement I and Statement II are true",
+        "C": "Both Statement I and Statement II are false",
+        "D": "Statement I is true but Statement II is false"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 5,
+      "type": "mcq",
+      "question": "Correct increasing order of bond length: A: $C-C$, B: $C=C$, C: $C\\equiv C$, D: $C-N$",
+      "options": {
+        "A": "C < B < A < D",
+        "B": "A < D < B < C",
+        "C": "D < C < B < A",
+        "D": "C < B < D < A"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 8,
+      "type": "numerical",
+      "question": "Among $O_2, O_2^+, O_2^-, O_2^{2-}$, number of paramagnetic species is ____.",
+      "answer": 2
+    },
+    {
+      "id": 12,
+      "type": "numerical",
+      "question": "In $CH_3-CH=CH-C\\equiv C-CHO$, total number of $sp$ and $sp^2$ hybridized carbons is ____.",
+      "answer": 5
+    },
+    {
+      "id": 16,
+      "type": "numerical",
+      "question": "In $SO_4^{2-}$ (all single bonds), sum of absolute formal charges is ____.",
+      "answer": 6
+    },
+    {
+      "id": 20,
+      "type": "mcq",
+      "question": {
+        "statement_1": "$NH_3$ (bp = $-33^\\circ C$) has a much higher boiling point than $PH_3$ (bp = $-87^\\circ C$) despite having lower molecular mass.",
+        "statement_2": "Nitrogen is small and highly electronegative, enabling strong intermolecular hydrogen bonding in $NH_3$, which is absent in $PH_3$."
+      },
+      "options": {
+        "A": "Both (A) and (R) are true and (R) is the correct explanation of (A).",
+        "B": "(A) is true but (R) is false.",
+        "C": "Both (A) and (R) are true but (R) is not the correct explanation of (A).",
+        "D": "(A) is false but (R) is true."
+      },
+      "answer": "A"
+    },
+    {
+      "id": 31,
+      "type": "numerical",
+      "question": "Among $XeF_2, XeF_4, XeOF_2, XeO_3,$ and $XeF_6$, the number of molecules having zero dipole moment is ____.",
+      "answer": 2
+    }
+  ],
+  "Coordination Compounds Focus": [
+    {
+      "qno": 1,
+      "type": "single_correct",
+      "question": "Given below are two statements: Statement I: Among $[Fe(H_2O)_6]^{2+}, [Fe(CN)_6]^{4-}, [Co(NH_3)_6]^{3+}$, and $[CoF_6]^{3-}$, the complex $[CoF_6]^{3-}$ has the maximum number of unpaired electrons. Statement II: Both $[Fe(CN)_6]^{4-}$ and $[Co(NH_3)_6]^{3+}$ are diamagnetic in nature. Choose the correct answer:",
+      "options": {
+        "A": "Both Statement I and Statement II are true",
+        "B": "Statement I is true but Statement II is false",
+        "C": "Both Statement I and Statement II are false",
+        "D": "Statement I is false but Statement II is true"
+      },
+      "answer": "B"
+    },
+    {
+      "qno": 2,
+      "type": "single_correct",
+      "question": "Given below are two statements: Statement I: Among $[Pt(CN)_4]^{2-}, [NiCl_4]^{2-}, [Pd(NH_3)_4]^{2+}$, and $[CuCl_4]^{2-}$, only two complexes exhibit square planar geometry. Statement II: The complex $[CuCl_4]^{2-}$ has a distorted tetrahedral geometry due to Jahn-Teller distortion and has one unpaired electron. Choose the correct answer:",
+      "options": {
+        "A": "Statement I is true but Statement II is false",
+        "B": "Both Statement I and Statement II are true",
+        "C": "Statement I is false but Statement II is true",
+        "D": "Both Statement I and Statement II are false"
+      },
+      "answer": "B"
+    },
+    {
+      "qno": 3,
+      "type": "single_correct",
+      "question": "Assertion (A): The complex $[Ni(CN)_4]^{2-}$ is diamagnetic while $[NiCl_4]^{2-}$ is paramagnetic. Reason (R): $CN^-$ is a strong field ligand that causes pairing of electrons, while $Cl^-$ is a weak field ligand that does not cause pairing.",
+      "options": {
+        "A": "(A) is false but (R) is true",
+        "B": "Both (A) and (R) are true but (R) is not the correct explanation of (A)",
+        "C": "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+        "D": "(A) is true but (R) is false"
+      },
+      "answer": "C"
+    },
+    {
+      "qno": 9,
+      "type": "numerical",
+      "question": "The complex $[CoCl_2(en)_2]Cl$ is dissolved in water. If 2.855 g of this complex is treated with excess $AgNO_3$ solution, the number of moles of $AgCl$ precipitated is $x \\times 10^{-2}$. Find x.",
+      "answer": 1
+    },
+    {
+      "qno": 10,
+      "type": "numerical",
+      "question": "The difference in the number of unpaired electrons between the high spin and low spin octahedral complexes of $Co^{3+}$ ($d^6$) is ____.",
+      "answer": 4
+    }
+  ]
+}

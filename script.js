@@ -55,18 +55,139 @@ document.addEventListener("DOMContentLoaded", () => {
 
   async function init() {
     updateScore(0, false);
-    const [pyqRes, curatedRes, mockRes] = await Promise.all([
+    const [pyqRes, curatedRes, mockRes, chemistryRes] = await Promise.all([
       fetch("questions.json"),
       fetch("curated_booklets.json"),
       fetch("mock_tests.json"),
+      fetch("chemistry_special_booklet.json"),
     ]);
 
-    state.pyqQuestions = await pyqRes.json();
-    state.curatedBooklets = await curatedRes.json();
-    state.mockTests = await mockRes.json();
+    state.pyqQuestions = (await pyqRes.json()).map((q) => normalizeQuestion(q, "PYQ"));
+
+    const curatedData = await curatedRes.json();
+    state.curatedBooklets = Object.fromEntries(
+      Object.entries(curatedData).map(([name, list]) => [
+        name,
+        list.map((q) => normalizeQuestion(q, name)),
+      ]),
+    );
+
+    const chemistrySpecial = await chemistryRes.json();
+    const chemistryCombined = Object.values(chemistrySpecial).flat();
+    state.curatedBooklets["Chemistry KaTeX Special Booklet"] = chemistryCombined.map((q) =>
+      normalizeQuestion(q, "Chemistry Special"),
+    );
+
+    const rawMock = await mockRes.json();
+    state.mockTests = {};
+    Object.entries(rawMock).forEach(([year, shiftObj]) => {
+      state.mockTests[year] = {};
+      Object.entries(shiftObj).forEach(([shift, list]) => {
+        state.mockTests[year][shift] = list.map((q) => normalizeQuestion(q, `Mock ${year}`));
+      });
+    });
 
     bindEvents();
     buildMockSelectors();
+  }
+
+  function normalizeQuestion(raw, defaultTopic) {
+    const type = raw.type === "numerical" ? "integer" : raw.type || "mcq";
+    const subject = raw.subject || "chemistry";
+    const topic = raw.topic || defaultTopic || "general";
+    const difficulty = raw.difficulty || "medium";
+
+    const text = buildQuestionText(raw.question ?? raw.text, raw.statements, raw.type);
+
+    if (type === "integer") {
+      return {
+        subject,
+        topic,
+        difficulty,
+        type: "integer",
+        text,
+        image: raw.image || "",
+        answer:
+          raw.answer !== undefined && raw.answer !== null && raw.answer !== ""
+            ? Number(raw.answer)
+            : null,
+      };
+    }
+
+    const options = normalizeOptions(raw.options ?? []);
+    const correct = mapCorrectAnswer(raw.answer, options, raw.correct);
+
+    return {
+      subject,
+      topic,
+      difficulty,
+      type: "mcq",
+      text,
+      image: raw.image || "",
+      options,
+      correct,
+    };
+  }
+
+  function buildQuestionText(question, statements, qtype) {
+    let parts = [];
+
+    if (typeof question === "string") {
+      parts.push(`<p>${question}</p>`);
+    } else if (question && typeof question === "object") {
+      if (question.assertion || question.reason) {
+        parts.push(`<p><strong>Assertion:</strong> ${question.assertion || ""}</p>`);
+        parts.push(`<p><strong>Reason:</strong> ${question.reason || ""}</p>`);
+      } else {
+        Object.entries(question).forEach(([key, value]) => {
+          const label = key.replace(/_/g, " ").replace(/\b\w/g, (c) => c.toUpperCase());
+          parts.push(`<p><strong>${label}:</strong> ${value}</p>`);
+        });
+      }
+    }
+
+    if (statements && typeof statements === "object") {
+      const statementLines = Object.entries(statements)
+        .map(([key, value]) => `<li><strong>${key}:</strong> ${value}</li>`)
+        .join("");
+      parts.push(`<ul>${statementLines}</ul>`);
+    }
+
+    if (!parts.length) {
+      parts.push(`<p>${qtype || "Question"}</p>`);
+    }
+
+    return parts.join("");
+  }
+
+  function normalizeOptions(optionsInput) {
+    if (Array.isArray(optionsInput)) {
+      return optionsInput.map((op) =>
+        typeof op === "string" ? { key: "", text: op, image: "" } : { key: "", ...op },
+      );
+    }
+
+    return Object.entries(optionsInput || {}).map(([key, value]) => ({
+      key,
+      text: value,
+      image: "",
+    }));
+  }
+
+  function mapCorrectAnswer(answer, options, fallbackCorrect) {
+    if (typeof fallbackCorrect === "number") return fallbackCorrect;
+    if (answer === undefined || answer === null) return null;
+
+    if (typeof answer === "number") return answer;
+    const answerText = String(answer).trim();
+
+    const optionIndexByKey = options.findIndex((op) => op.key === answerText);
+    if (optionIndexByKey >= 0) return optionIndexByKey;
+
+    const optionIndexByText = options.findIndex((op) => op.text === answerText);
+    if (optionIndexByText >= 0) return optionIndexByText;
+
+    return null;
   }
 
   function bindEvents() {
@@ -308,11 +429,12 @@ document.addEventListener("DOMContentLoaded", () => {
       optionButton.className = "option";
       optionButton.type = "button";
 
+      const label = option.key ? `<strong>${option.key}.</strong> ` : "";
       const imageHTML = option.image
         ? `<img class="option-image" src="${option.image}" alt="Option diagram" />`
         : "";
 
-      optionButton.innerHTML = `<div>${option.text}</div>${imageHTML}`;
+      optionButton.innerHTML = `<div>${label}${option.text}</div>${imageHTML}`;
       optionButton.addEventListener("click", () => handleAnswer(index));
       elements.optionsContainer.appendChild(optionButton);
     });
@@ -322,18 +444,32 @@ document.addEventListener("DOMContentLoaded", () => {
     if (state.answered) return;
     const question = state.filteredQuestions[state.currentIndex];
     const optionButtons = [...elements.optionsContainer.querySelectorAll(".option")];
+    const correctIndex = question.correct;
 
     state.answered = true;
     optionButtons.forEach((button, index) => {
       button.classList.add("disabled");
       if (index === selectedIndex) button.classList.add("selected");
-      if (index === question.correct) button.classList.add("correct");
-      if (index === selectedIndex && selectedIndex !== question.correct) {
+      if (correctIndex !== null && correctIndex !== undefined && index === correctIndex) {
+        button.classList.add("correct");
+      }
+      if (
+        correctIndex !== null &&
+        correctIndex !== undefined &&
+        index === selectedIndex &&
+        selectedIndex !== correctIndex
+      ) {
         button.classList.add("wrong");
       }
     });
 
-    finalizeAnswer(selectedIndex === question.correct);
+    if (correctIndex === null || correctIndex === undefined) {
+      elements.integerFeedback.textContent = "Answer key unavailable for this question.";
+      elements.nextBtn.disabled = false;
+      return;
+    }
+
+    finalizeAnswer(selectedIndex === correctIndex);
   }
 
   function handleIntegerAnswer() {
@@ -343,8 +479,14 @@ document.addEventListener("DOMContentLoaded", () => {
     if (!value) return;
 
     state.answered = true;
-    const isCorrect = Number(value) === Number(question.answer);
 
+    if (question.answer === null || question.answer === undefined || Number.isNaN(question.answer)) {
+      elements.integerFeedback.textContent = "Answer key unavailable for this question.";
+      elements.nextBtn.disabled = false;
+      return;
+    }
+
+    const isCorrect = Number(value) === Number(question.answer);
     elements.integerAnswer.classList.add(isCorrect ? "correct" : "wrong");
     elements.integerFeedback.textContent = isCorrect
       ? "Correct answer!"
