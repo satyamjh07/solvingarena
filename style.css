@@ -10,7 +10,9 @@
   --red: #ff5f78;
 }
 
-* { box-sizing: border-box; }
+* {
+  box-sizing: border-box;
+}
 
 body {
   margin: 0;
@@ -20,7 +22,7 @@ body {
 }
 
 .app-shell {
-  max-width: 960px;
+  max-width: 920px;
   margin: 0 auto;
   padding: 1.2rem;
   min-height: 100vh;
@@ -36,8 +38,7 @@ body {
 
 .top-bar,
 .filters,
-.question-card,
-.chooser-screen {
+.question-card {
   padding: 1rem 1.2rem;
   margin-bottom: 1rem;
 }
@@ -60,48 +61,18 @@ body {
 .tagline,
 .progress,
 .topic,
-#streak-display,
-#integer-feedback {
+#streak-display {
   margin: 0.2rem 0 0;
   color: var(--muted);
 }
 
-#score-display { margin: 0; font-weight: 700; }
-.score-group { text-align: right; }
-
-.chooser-screen h1,
-.chooser-screen h2 { margin-top: 0; }
-
-.chooser-grid {
-  display: grid;
-  gap: 0.8rem;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
-}
-
-.chooser-card {
-  border-radius: 14px;
-  border: 1px solid var(--border);
-  background: rgba(255, 255, 255, 0.04);
-  color: var(--text);
-  font-size: 1rem;
+#score-display {
+  margin: 0;
   font-weight: 700;
-  min-height: 96px;
-  cursor: pointer;
-  transition: transform 0.2s ease, border-color 0.2s ease, box-shadow 0.2s ease;
 }
 
-.chooser-card:hover {
-  transform: translateY(-3px);
-  border-color: var(--cyan);
-  box-shadow: 0 0 20px rgba(20, 241, 255, 0.2);
-}
-
-.form-row { margin-bottom: 0.8rem; }
-.form-row label,
-.filter-item label {
-  display: block;
-  margin-bottom: 0.3rem;
-  font-size: 0.86rem;
+.score-group {
+  text-align: right;
 }
 
 .filters {
@@ -110,8 +81,13 @@ body {
   gap: 0.8rem;
 }
 
+.filter-item label {
+  display: block;
+  font-size: 0.86rem;
+  margin-bottom: 0.3rem;
+}
+
 select,
-input,
 .btn {
   width: 100%;
   border-radius: 12px;
@@ -138,7 +114,9 @@ input,
   background: rgba(0, 0, 0, 0.3);
 }
 
-.question-image { display: none; }
+.question-image {
+  display: none;
+}
 
 .options {
   display: grid;
@@ -154,8 +132,8 @@ input,
   background: rgba(255, 255, 255, 0.03);
   color: var(--text);
   padding: 0.9rem;
-  cursor: pointer;
   transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
+  cursor: pointer;
 }
 
 .option:hover:not(.disabled) {
@@ -164,23 +142,23 @@ input,
   box-shadow: 0 0 20px rgba(20, 241, 255, 0.18);
 }
 
-.option.selected { border-color: var(--purple); box-shadow: 0 0 22px rgba(157, 92, 255, 0.3); }
-.option.correct { border-color: var(--green); background: rgba(29, 216, 129, 0.1); }
-.option.wrong { border-color: var(--red); background: rgba(255, 95, 120, 0.1); }
-.option.disabled { cursor: not-allowed; }
-
-.integer-wrap {
-  margin-top: 1rem;
-  display: grid;
-  gap: 0.6rem;
+.option.selected {
+  border-color: var(--purple);
+  box-shadow: 0 0 22px rgba(157, 92, 255, 0.3);
 }
 
-.integer-wrap input.correct {
+.option.correct {
   border-color: var(--green);
+  background: rgba(29, 216, 129, 0.1);
 }
 
-.integer-wrap input.wrong {
+.option.wrong {
   border-color: var(--red);
+  background: rgba(255, 95, 120, 0.1);
+}
+
+.option.disabled {
+  cursor: not-allowed;
 }
 
 .actions {
@@ -190,22 +168,34 @@ input,
   gap: 0.8rem;
 }
 
-.actions.single {
-  max-width: 380px;
-}
-
 .btn {
   cursor: pointer;
   font-weight: 700;
-  transition: transform 0.2s ease;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
-.btn:hover:not(:disabled) { transform: translateY(-2px); }
-.btn.primary { background: linear-gradient(90deg, var(--cyan), var(--purple)); color: #0a0a0a; border: none; }
-.btn.ghost { background: rgba(255, 255, 255, 0.05); }
-.btn:disabled { opacity: 0.5; cursor: not-allowed; }
+.btn:hover:not(:disabled) {
+  transform: translateY(-2px);
+}
 
-.correct-pop { animation: pop 0.35s ease; }
+.btn.primary {
+  background: linear-gradient(90deg, var(--cyan), var(--purple));
+  color: #0a0a0a;
+  border: none;
+}
+
+.btn.ghost {
+  background: rgba(255, 255, 255, 0.05);
+}
+
+.btn:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.correct-pop {
+  animation: pop 0.35s ease;
+}
 
 @keyframes pop {
   0% { transform: scale(1); }
@@ -213,11 +203,16 @@ input,
   100% { transform: scale(1); }
 }
 
-.empty-state { padding: 2rem; text-align: center; }
-.hidden { display: none; }
+.empty-state {
+  padding: 2rem;
+  text-align: center;
+}
+
+.hidden {
+  display: none;
+}
 
 @media (max-width: 760px) {
-  .chooser-grid,
   .filters,
   .actions {
     grid-template-columns: 1fr;

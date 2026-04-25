@@ -29,7 +29,7 @@
       <header class="top-bar glass-card">
         <div>
           <p class="brand">ZEROday</p>
-          <p class="tagline" id="mode-tagline">Choose your solving mode</p>
+          <p class="tagline">Continuous Question Solving</p>
         </div>
         <div class="score-group">
           <p id="score-display">⚡ Score: 0</p>
@@ -37,80 +37,41 @@
         </div>
       </header>
 
-      <section id="mode-screen" class="glass-card chooser-screen">
-        <h1>How would you like to solve today?</h1>
-        <div class="chooser-grid">
-          <button class="chooser-card" id="mode-mock">Attempt NTA Style Mock Test</button>
-          <button class="chooser-card" id="mode-pyq">Solve JEE MAIN PYQs</button>
-          <button class="chooser-card" id="mode-curated">Curated Subject wise questions for you</button>
+      <section class="filters glass-card">
+        <div class="filter-item">
+          <label for="subject-filter">Subject</label>
+          <select id="subject-filter"></select>
+        </div>
+        <div class="filter-item">
+          <label for="topic-filter">Topic</label>
+          <select id="topic-filter"></select>
+        </div>
+        <div class="filter-item">
+          <label for="difficulty-filter">Difficulty</label>
+          <select id="difficulty-filter">
+            <option value="all">All</option>
+            <option value="easy">Easy</option>
+            <option value="medium">Medium</option>
+            <option value="hard">Hard</option>
+          </select>
         </div>
       </section>
 
-      <section id="mock-config-screen" class="glass-card chooser-screen hidden">
-        <h2>Configure NTA Style Mock Test</h2>
-        <div class="form-row">
-          <label for="mock-year">Select Year</label>
-          <select id="mock-year"></select>
+      <main class="question-card glass-card" id="question-card">
+        <p id="progress-text" class="progress">Question 1 / 1</p>
+        <p id="topic-text" class="topic">Topic: --</p>
+        <h1 id="question-text"></h1>
+        <img id="question-image" class="question-image" alt="Question diagram" />
+        <div id="options-container" class="options"></div>
+        <div class="actions">
+          <button id="skip-btn" class="btn ghost">Skip Question</button>
+          <button id="next-btn" class="btn primary" disabled>Next Question</button>
         </div>
-        <div class="form-row">
-          <label for="mock-shift">Select Shift</label>
-          <select id="mock-shift"></select>
-        </div>
-        <div class="actions single">
-          <button class="btn ghost" id="mock-back">Back</button>
-          <button class="btn primary" id="mock-start">Start Mock Test</button>
-        </div>
-      </section>
+      </main>
 
-      <section id="curated-screen" class="glass-card chooser-screen hidden">
-        <h2>Select a Curated Booklet</h2>
-        <div id="booklet-list" class="chooser-grid"></div>
-        <div class="actions single">
-          <button class="btn ghost" id="curated-back">Back</button>
-        </div>
-      </section>
-
-      <section id="solver-screen" class="hidden">
-        <section class="filters glass-card" id="filters-wrap">
-          <div class="filter-item" id="subject-wrap">
-            <label for="subject-filter">Subject</label>
-            <select id="subject-filter"></select>
-          </div>
-          <div class="filter-item">
-            <label for="topic-filter" id="topic-label">Topic</label>
-            <select id="topic-filter"></select>
-          </div>
-          <div class="filter-item">
-            <label for="difficulty-filter" id="difficulty-label">Difficulty</label>
-            <select id="difficulty-filter"></select>
-          </div>
-        </section>
-
-        <main class="question-card glass-card" id="question-card">
-          <p id="progress-text" class="progress">Question 1 / 1</p>
-          <p id="topic-text" class="topic">Topic: --</p>
-          <h1 id="question-text"></h1>
-          <img id="question-image" class="question-image" alt="Question diagram" />
-
-          <div id="options-container" class="options"></div>
-
-          <div id="integer-answer-wrap" class="integer-wrap hidden">
-            <label for="integer-answer">Enter numerical answer</label>
-            <input id="integer-answer" type="number" step="any" />
-            <button id="check-integer-btn" class="btn primary" type="button">Check Answer</button>
-            <p id="integer-feedback"></p>
-          </div>
-
-          <div class="actions">
-            <button id="skip-btn" class="btn ghost">Skip Question</button>
-            <button id="next-btn" class="btn primary" disabled>Next Question</button>
-          </div>
-        </main>
-
-        <section id="empty-state" class="glass-card empty-state hidden">
-          <h2>No questions match your filters.</h2>
-          <p>Try changing available filters.</p>
-        </section>
+      <section id="empty-state" class="glass-card empty-state hidden">
+        <h2>No questions match your filters.</h2>
+        <p>Try changing Subject, Topic, or Difficulty.</p>
       </section>
     </div>
 
