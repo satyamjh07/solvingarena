@@ -1,0 +1,155 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JEE Main - Mock Test</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css"
+    />
+
+    <script
+      defer
+      src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js"
+    ></script>
+
+    <script
+      defer
+      src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js"
+    ></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div id="instructions-page">
+        <a
+          href="https://getzeroday.vercel.app/"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="github-link"
+        >
+        </a>
+        <h1>JEE Mock Test</h1>
+        <div class="instructions-content">
+          <h2>Instructions</h2>
+          <ul>
+            <li>
+              Total duration of this examination is <strong>10 minutes</strong>.
+            </li>
+            <li>
+              The countdown timer at the top right will show the remaining time.
+            </li>
+            <li>The Question Palette shows the status of each question.</li>
+            <li>
+              Marking Scheme: <strong>+4</strong> for correct,
+              <strong>-1</strong> for incorrect, <strong>0</strong> for
+              unanswered.
+            </li>
+          </ul>
+        </div>
+        <button id="start-quiz-btn">Start Test</button>
+      </div>
+
+      <div id="quiz-page">
+        <header class="quiz-header">
+          <div class="quiz-header-left">
+            <h1>JEE Mock Test</h1>
+            <a
+              href="https://github.com/akshdeepsingh7/Jee-Simulation"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="github-link"
+            >
+              <svg
+                class="github-icon"
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"
+                />
+              </svg>
+              <span>Jee-Simulation</span>
+            </a>
+          </div>
+          <div class="quiz-header-right">
+            <div id="timer">Time Left: 10:00</div>
+            <button id="toggle-palette-btn">☰</button>
+          </div>
+        </header>
+        <main class="quiz-main">
+          <div class="question-section">
+            <div id="question-info"></div>
+            <p id="question-text"></p>
+            <div class="options-container" id="options-container"></div>
+            <div class="quiz-navigation">
+              <div>
+                <button class="nav-btn" id="mark-review-btn">
+                  Mark for Review & Next
+                </button>
+                <button class="nav-btn" id="clear-response-btn">
+                  Clear Response
+                </button>
+              </div>
+              <div>
+                <button class="nav-btn" id="save-mark-review-btn">
+                  Save & Mark for Review
+                </button>
+                <button class="nav-btn" id="save-next-btn">Save & Next</button>
+              </div>
+            </div>
+          </div>
+          <aside class="palette-section" id="palette-section">
+            <div class="palette-header">Question Palette</div>
+            <div id="question-palette"></div>
+            <div class="submit-container">
+              <button id="submit-test-btn">Submit Test</button>
+            </div>
+          </aside>
+        </main>
+      </div>
+
+      <div id="result-page">
+        <h1>Test Summary</h1>
+        <div class="result-summary">
+          <div class="final-score-container">
+            <span>Final Score</span>
+            <h2 id="final-score"></h2>
+          </div>
+          <div class="stats-grid">
+            <div class="stat-card">
+              <h3 id="total-questions"></h3>
+              <p>Total Questions</p>
+            </div>
+            <div class="stat-card">
+              <h3 id="attempted-questions"></h3>
+              <p>Attempted</p>
+            </div>
+            <div class="stat-card">
+              <h3 id="correct-answers"></h3>
+              <p>Correct</p>
+            </div>
+            <div class="stat-card">
+              <h3 id="incorrect-answers"></h3>
+              <p>Incorrect</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="palette-overlay"></div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

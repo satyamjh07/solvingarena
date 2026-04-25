@@ -1,0 +1,218 @@
+{
+  "Physics": [
+    {
+      "text": "A body under force $\\vec{F} = 6\\hat{i} - 8\\hat{j} + 10\\hat{k}$ acquires an acceleration of $1\\,\\text{m/s}^2$. The mass is:",
+      "options": [
+        "$10\\,\\text{kg}$",
+        "$20\\,\\text{kg}$",
+        "$10\\sqrt{2}\\,\\text{kg}$",
+        "$2\\sqrt{10}\\,\\text{kg}$"
+      ],
+      "correct": 2
+    },
+    {
+      "text": "A body under force $\\vec{F} = 6\\hat{i} - 8\\hat{j} + 10\\hat{k}$ acquires an acceleration of $1\\,\\text{m/s}^2$. The mass is:",
+      "options": [
+        "$10\\,\\text{kg}$",
+        "$20\\,\\text{kg}$",
+        "$10\\sqrt{2}\\,\\text{kg}$",
+        "$2\\sqrt{10}\\,\\text{kg}$"
+      ],
+      "correct": 2
+    },
+    {
+      "text": "What is the dimensional formula for gravitational constant G?",
+      "options": ["[M⁻¹L³T⁻²]", "[ML²T⁻²]", "[M⁻¹L²T⁻³]", "[ML³T⁻²]"],
+      "correct": 0
+    },
+    {
+      "text": "A projectile is fired with a velocity of 20 m/s at 60°. What is the maximum height reached?",
+      "options": ["10 m", "15 m", "20 m", "30 m"],
+      "correct": 2
+    },
+    {
+      "text": "The work done in moving a 1 C charge through a potential difference of 1 V is:",
+      "options": ["1 J", "1 N", "1 W", "1 C"],
+      "correct": 0
+    },
+    {
+      "text": "The time period of a simple pendulum is doubled. Its length becomes:",
+      "options": ["4 times", "2 times", "√2 times", "1/2 times"],
+      "correct": 0
+    },
+    {
+      "text": "The magnetic field at the center of a circular loop is:",
+      "options": [
+        "$\\frac{\\mu_0 I}{2R}$",
+        "$\\frac{\\mu_0 I}{4\\pi R}$",
+        "$\\frac{\\mu_0 I}{4\\pi R^2}$",
+        "$\\mu_0 I R^2$"
+      ],
+      "correct": 0
+    },
+    {
+      "text": "The magnetic field at the center of a circular loop is:",
+      "options": [
+        "$\\frac{\\mu_0 I}{2R}$",
+        "$\\frac{\\mu_0 I}{4\\pi R}$",
+        "$\\frac{\\mu_0 I}{4\\pi R^2}$",
+        "$\\mu_0 I R^2$"
+      ],
+      "correct": 0
+    },
+    {
+      "text": "The magnetic field at the center of a circular loop is:",
+      "options": [
+        "$\\frac{\\mu_0 I}{2R}$",
+        "$\\frac{\\mu_0 I}{4\\pi R}$",
+        "$\\frac{\\mu_0 I}{4\\pi R^2}$",
+        "$\\mu_0 I R^2$"
+      ],
+      "correct": 0
+    },
+    {
+      "text": "A body under force $\\vec{F} = 6\\hat{i} - 8\\hat{j} + 10\\hat{k}$ acquires an acceleration of $1\\,\\text{m/s}^2$. The mass is:",
+      "options": [
+        "$10\\,\\text{kg}$",
+        "$20\\,\\text{kg}$",
+        "$10\\sqrt{2}\\,\\text{kg}$",
+        "$2\\sqrt{10}\\,\\text{kg}$"
+      ],
+      "correct": 2
+    }
+  ],
+  "Chemistry": [
+    {
+      "text": "What is the chemical formula of water?",
+      "options": ["$H_2O$", "$CO_2$", "$NaCl$", "$C_6H_{12}O_6$"],
+      "correct": 0
+    },
+    {
+      "text": "What is the chemical formula of water?",
+      "options": ["$H_2O$", "$CO_2$", "$NaCl$", "$C_6H_{12}O_6$"],
+      "correct": 0
+    },
+    {
+      "text": "Which of the following has the highest electronegativity?",
+      "options": ["Fluorine", "Oxygen", "Nitrogen", "Chlorine"],
+      "correct": 0
+    },
+    {
+      "text": "pH of a neutral solution at 25°C is:",
+      "options": ["0", "7", "14", "1"],
+      "correct": 1
+    },
+    {
+      "text": "Which gas is evolved when zinc reacts with dilute HCl?",
+      "options": ["O₂", "H₂", "N₂", "CO₂"],
+      "correct": 1
+    },
+    {
+      "text": "Which oxide is amphoteric?",
+      "options": ["$Na_2O$", "$Al_2O_3$", "$CO_2$", "$MgO$"],
+      "correct": 1
+    },
+    {
+      "text": "The IUPAC name of CH₃CH₂COOH is:",
+      "options": [
+        "Propanoic acid",
+        "Butanoic acid",
+        "Ethanoic acid",
+        "Formic acid"
+      ],
+      "correct": 0
+    },
+    {
+      "text": "Which oxide is amphoteric?",
+      "options": ["$Na_2O$", "$Al_2O_3$", "$CO_2$", "$MgO$"],
+      "correct": 1
+    },
+    {
+      "text": "Which block element is iron (Fe)?",
+      "options": ["s-block", "p-block", "d-block", "f-block"],
+      "correct": 2
+    },
+    {
+      "text": "Which law states that mass is neither created nor destroyed?",
+      "options": [
+        "Boyle’s Law",
+        "Law of Conservation of Mass",
+        "Avogadro’s Law",
+        "Dalton’s Law"
+      ],
+      "correct": 1
+    }
+  ],
+  "Mathematics": [
+    {
+      "text": "Evaluate: $$\\int \\frac{1}{x} \\, dx$$",
+      "options": [
+        "$x^2 + C$",
+        "$\\ln|x| + C$",
+        "$-\\frac{1}{x^2} + C$",
+        "$e^x + C$"
+      ],
+      "correct": 1
+    },
+    {
+      "text": "Evaluate: $$\\int \\frac{1}{x} \\, dx$$",
+      "options": [
+        "$x^2 + C$",
+        "$\\ln|x| + C$",
+        "$-\\frac{1}{x^2} + C$",
+        "$e^x + C$"
+      ],
+      "correct": 1
+    },
+    {
+      "text": "If a matrix A is both symmetric and skew-symmetric, then A is a:",
+      "options": [
+        "Scalar matrix",
+        "Diagonal matrix",
+        "Zero matrix",
+        "Identity matrix"
+      ],
+      "correct": 2
+    },
+    {
+      "text": "Evaluate: $$\\int \\frac{1}{x} \\, dx$$",
+      "options": [
+        "$x^2 + C$",
+        "$\\ln|x| + C$",
+        "$-\\frac{1}{x^2} + C$",
+        "$e^x + C$"
+      ],
+      "correct": 1
+    },
+    {
+      "text": "If sin θ = 3/5, what is cos θ?",
+      "options": ["4/5", "5/3", "3/4", "1/2"],
+      "correct": 0
+    },
+   {
+  "text": "If $\\sin\\theta = \\frac{3}{5}$, then $\\cos\\theta$ is:",
+  "options": ["$\\frac{4}{5}$", "$\\frac{5}{3}$", "$\\frac{3}{4}$", "$\\frac{1}{2}$"],
+  "correct": 0
+},
+  {
+  "text": "If $\\sin\\theta = \\frac{3}{5}$, then $\\cos\\theta$ is:",
+  "options": ["$\\frac{4}{5}$", "$\\frac{5}{3}$", "$\\frac{3}{4}$", "$\\frac{1}{2}$"],
+  "correct": 0
+},
+    {
+      "text": "Evaluate: $$\\lim_{x \\to 0} \\frac{\\sin x}{x}$$",
+      "options": ["$0$", "$1$", "$\\infty$", "$x$"],
+      "correct": 1
+    },
+    {
+      "text": "Evaluate: $$\\lim_{x \\to 0} \\frac{\\sin x}{x}$$",
+      "options": ["$0$", "$1$", "$\\infty$", "$x$"],
+      "correct": 1
+    },
+    {
+  "text": "If $\\sin\\theta = \\frac{3}{5}$, then $\\cos\\theta$ is:",
+  "options": ["$\\frac{4}{5}$", "$\\frac{5}{3}$", "$\\frac{3}{4}$", "$\\frac{1}{2}$"],
+  "correct": 0
+}
+  ]
+}
