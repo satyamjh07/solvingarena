@@ -1,0 +1,5277 @@
+{
+  "2025": {
+    "shift-1": [
+      {
+        "subject": "physics",
+        "topic": "physics topic 1",
+        "difficulty": "easy",
+        "type": "mcq",
+        "text": "[Physics MCQ 1] Solve: $2+0$ equals?",
+        "image": "",
+        "options": [
+          {
+            "text": "1",
+            "image": ""
+          },
+          {
+            "text": "2",
+            "image": ""
+          },
+          {
+            "text": "3",
+            "image": ""
+          },
+          {
+            "text": "4",
+            "image": ""
+          }
+        ],
+        "correct": 1
+      },
+      {
+        "subject": "physics",
+        "topic": "physics topic 2",
+        "difficulty": "medium",
+        "type": "mcq",
+        "text": "[Physics MCQ 2] Solve: $2+1$ equals?",
+        "image": "",
+        "options": [
+          {
+            "text": "2",
+            "image": ""
+          },
+          {
+            "text": "3",
+            "image": ""
+          },
+          {
+            "text": "4",
+            "image": ""
+          },
+          {
+            "text": "5",
+            "image": ""
+          }
+        ],
+        "correct": 1
+      },
+      {
+        "subject": "physics",
+        "topic": "physics topic 3",
+        "difficulty": "hard",
+        "type": "mcq",
+        "text": "[Physics MCQ 3] Solve: $2+2$ equals?",
+        "image": "",
+        "options": [
+          {
+            "text": "3",
+            "image": ""
+          },
+          {
+            "text": "4",
+            "image": ""
+          },
+          {
+            "text": "5",
+            "image": ""
+          },
+          {
+            "text": "6",
+            "image": ""
+          }
+        ],
+        "correct": 1
+      },
+      {
+        "subject": "physics",
+        "topic": "physics topic 4",
+        "difficulty": "easy",
+        "type": "mcq",
+        "text": "[Physics MCQ 4] Solve: $2+3$ equals?",
+        "image": "",
+        "options": [
+          {
+            "text": "4",
+            "image": ""
+          },
+          {
+            "text": "5",
+            "image": ""
+          },
+          {
+            "text": "6",
+            "image": ""
+          },
+          {
+            "text": "7",
+            "image": ""
+          }
+        ],
+        "correct": 1
+      },
+      {
+        "subject": "physics",
+        "topic": "physics topic 5",
+        "difficulty": "medium",
+        "type": "mcq",
+        "text": "[Physics MCQ 5] Solve: $2+4$ equals?",
+        "image": "",
+        "options": [
+          {
+            "text": "5",
+            "image": ""
+          },
+          {
+            "text": "6",
+            "image": ""
+          },
+          {
+            "text": "7",
+            "image": ""
+          },
+          {
+            "text": "8",
+            "image": ""
+          }
+        ],
+        "correct": 1
+      },
+      {
+        "subject": "physics",
+        "topic": "physics topic 1",
+        "difficulty": "hard",
+        "type": "mcq",
+        "text": "[Physics MCQ 6] Solve: $2+5$ equals?",
+        "image": "",
+        "options": [
+          {
+            "text": "6",
+            "image": ""
+          },
+          {
+            "text": "7",
+            "image": ""
+          },
+          {
+            "text": "8",
+            "image": ""
+          },
+          {
+            "text": "9",
+            "image": ""
+          }
+        ],
+        "correct": 1
+      },
+      {
+        "subject": "physics",
+        "topic": "physics topic 2",
+        "difficulty": "easy",
+        "type": "mcq",
+        "text": "[Physics MCQ 7] Solve: $2+6$ equals?",
+        "image": "",
+        "options": [
+          {
+            "text": "7",
+            "image": ""
+          },
+          {
+            "text": "8",
+            "image": ""
+          },
+          {
+            "text": "9",
+            "image": ""
+          },
+          {
+            "text": "10",
+            "image": ""
+          }
+        ],
+        "correct": 1
+      },
+      {
+        "subject": "physics",
+        "topic": "physics topic 3",
+        "difficulty": "medium",
+        "type": "mcq",
+        "text": "[Physics MCQ 8] Solve: $2+0$ equals?",
+        "image": "",
+        "options": [
+          {
+            "text": "1",
+            "image": ""
+          },
+          {
+            "text": "2",
+            "image": ""
+          },
+          {
+            "text": "3",
+            "image": ""
+          },
+          {
+            "text": "4",
+            "image": ""
+          }
+        ],
+        "correct": 1
+      },
+      {
+        "subject": "physics",
+        "topic": "physics topic 4",
+        "difficulty": "hard",
+        "type": "mcq",
+        "text": "[Physics MCQ 9] Solve: $2+1$ equals?",
+        "image": "",
+        "options": [
+          {
+            "text": "2",
+            "image": ""
+          },
+          {
+            "text": "3",
+            "image": ""
+          },
+          {
+            "text": "4",
+            "image": ""
+          },
+          {
+            "text": "5",
+            "image": ""
+          }
+        ],
+        "correct": 1
+      },
+      {
+        "subject": "physics",
+        "topic": "physics topic 5",
+        "difficulty": "easy",
+        "type": "mcq",
+        "text": "[Physics MCQ 10] Solve: $2+2$ equals?",
+        "image": "",
+        "options": [
+          {
+            "text": "3",
+            "image": ""
+          },
+          {
+            "text": "4",
+            "image": ""
+          },
+          {
+            "text": "5",
+            "image": ""
+          },
+          {
+            "text": "6",
+            "image": ""
+          }
+        ],
+        "correct": 1
+      },
+      {
+        "subject": "physics",
+        "topic": "physics topic 1",
+        "difficulty": "medium",
+        "type": "mcq",
+        "text": "[Physics MCQ 11] Solve: $2+3$ equals?",
+        "image": "",
+        "options": [
+          {
+            "text": "4",
+            "image": ""
+          },
+          {
+            "text": "5",
+            "image": ""
+          },
+          {
+            "text": "6",
+            "image": ""
+          },
+          {
+            "text": "7",
+            "image": ""
+          }
+        ],
+        "correct": 1
+      },
+      {
+        "subject": "physics",
+        "topic": "physics topic 2",
+        "difficulty": "hard",
+        "type": "mcq",
+        "text": "[Physics MCQ 12] Solve: $2+4$ equals?",
+        "image": "",
+        "options": [
+          {
+            "text": "5",
+            "image": ""
+          },
+          {
+            "text": "6",
+            "image": ""
+          },
+          {
+            "text": "7",
+            "image": ""
+          },
+          {
+            "text": "8",
+            "image": ""
+          }
+        ],
+        "correct": 1
+      },
+      {
+        "subject": "physics",
+        "topic": "physics topic 3",
+        "difficulty": "easy",
+        "type": "mcq",
+        "text": "[Physics MCQ 13] Solve: $2+5$ equals?",
+        "image": "",
+        "options": [
+          {
+            "text": "6",
+            "image": ""
+          },
+          {
+            "text": "7",
+            "image": ""
+          },
+          {
+            "text": "8",
+            "image": ""
+          },
+          {
+            "text": "9",
+            "image": ""
+          }
+        ],
+        "correct": 1
+      },
+      {
+        "subject": "physics",
+        "topic": "physics topic 4",
+        "difficulty": "medium",
+        "type": "mcq",
+        "text": "[Physics MCQ 14] Solve: $2+6$ equals?",
+        "image": "",
+        "options": [
+          {
+            "text": "7",
+            "image": ""
+          },
+          {
+            "text": "8",
+            "image": ""
+          },
+          {
+            "text": "9",
+            "image": ""
+          },
+          {
+            "text": "10",
+            "image": ""
+          }
+        ],
+        "correct": 1
+      },
+      {
+        "subject": "physics",
+        "topic": "physics topic 5",
+        "difficulty": "hard",
+        "type": "mcq",
+        "text": "[Physics MCQ 15] Solve: $2+0$ equals?",
+        "image": "",
+        "options": [
+          {
+            "text": "1",
+            "image": ""
+          },
+          {
+            "text": "2",
+            "image": ""
+          },
+          {
+            "text": "3",
+            "image": ""
+          },
+          {
+            "text": "4",
+            "image": ""
+          }
+        ],
+        "correct": 1
+      },
+      {
+        "subject": "physics",
+        "topic": "physics topic 1",
+        "difficulty": "easy",
+        "type": "mcq",
+        "text": "[Physics MCQ 16] Solve: $2+1$ equals?",
+        "image": "",
+        "options": [
+          {
+            "text": "2",
+            "image": ""
+          },
+          {
+            "text": "3",
+            "image": ""
+          },
+          {
+            "text": "4",
+            "image": ""
+          },
+          {
+            "text": "5",
+            "image": ""
+          }
+        ],
+        "correct": 1
+      },
+      {
+        "subject": "physics",
+        "topic": "physics topic 2",
+        "difficulty": "medium",
+        "type": "mcq",
+        "text": "[Physics MCQ 17] Solve: $2+2$ equals?",
+        "image": "",
+        "options": [
+          {
+            "text": "3",
+            "image": ""
+          },
+          {
+            "text": "4",
+            "image": ""
+          },
+          {
+            "text": "5",
+            "image": ""
+          },
+          {
+            "text": "6",
+            "image": ""
+          }
+        ],
+        "correct": 1
+      },
+      {
+        "subject": "physics",
+        "topic": "physics topic 3",
+        "difficulty": "hard",
+        "type": "mcq",
+        "text": "[Physics MCQ 18] Solve: $2+3$ equals?",
+        "image": "",
+        "options": [
+          {
+            "text": "4",
+            "image": ""
+          },
+          {
+            "text": "5",
+            "image": ""
+          },
+          {
+            "text": "6",
+            "image": ""
+          },
+          {
+            "text": "7",
+            "image": ""
+          }
+        ],
+        "correct": 1
+      },
+      {
+        "subject": "physics",
+        "topic": "physics topic 4",
+        "difficulty": "easy",
+        "type": "mcq",
+        "text": "[Physics MCQ 19] Solve: $2+4$ equals?",
+        "image": "",
+        "options": [
+          {
+            "text": "5",
+            "image": ""
+          },
+          {
+            "text": "6",
+            "image": ""
+          },
+          {
+            "text": "7",
+            "image": ""
+          },
+          {
+            "text": "8",
+            "image": ""
+          }
+        ],
+        "correct": 1
+      },
+      {
+        "subject": "physics",
+        "topic": "physics topic 5",
+        "difficulty": "medium",
+        "type": "mcq",
+        "text": "[Physics MCQ 20] Solve: $2+5$ equals?",
+        "image": "",
+        "options": [
+          {
+            "text": "6",
+            "image": ""
+          },
+          {
+            "text": "7",
+            "image": ""
+          },
+          {
+            "text": "8",
+            "image": ""
+          },
+          {
+            "text": "9",
+            "image": ""
+          }
+        ],
+        "correct": 1
+      },
+      {
+        "subject": "physics",
+        "topic": "physics numericals",
+        "difficulty": "easy",
+        "type": "integer",
+        "text": "[Physics Integer 1] Enter the value of $5+5$.",
+        "image": "",
+        "answer": 10
+      },
+      {
+        "subject": "physics",
+        "topic": "physics numericals",
+        "difficulty": "medium",
+        "type": "integer",
+        "text": "[Physics Integer 2] Enter the value of $5+6$.",
+        "image": "",
+        "answer": 11
+      },
+      {
+        "subject": "physics",
+        "topic": "physics numericals",
+        "difficulty": "hard",
+        "type": "integer",
+        "text": "[Physics Integer 3] Enter the value of $5+7$.",
+        "image": "",
+        "answer": 12
+      },
+      {
+        "subject": "physics",
+        "topic": "physics numericals",
+        "difficulty": "easy",
+        "type": "integer",
+        "text": "[Physics Integer 4] Enter the value of $5+8$.",
+        "image": "",
+        "answer": 13
+      },
+      {
+        "subject": "physics",
+        "topic": "physics numericals",
+        "difficulty": "medium",
+        "type": "integer",
+        "text": "[Physics Integer 5] Enter the value of $5+9$.",
+        "image": "",
+        "answer": 14
+      },
+      {
+        "subject": "chemistry",
+        "topic": "chemistry topic 1",
+        "difficulty": "easy",
+        "type": "mcq",
+        "text": "[Chemistry MCQ 1] Solve: $2+0$ equals?",
+        "image": "",
+        "options": [
+          {
+            "text": "1",
+            "image": ""
+          },
+          {
+            "text": "2",
+            "image": ""
+          },
+          {
+            "text": "3",
+            "image": ""
+          },
+          {
+            "text": "4",
+            "image": ""
+          }
+        ],
+        "correct": 1
+      },
+      {
+        "subject": "chemistry",
+        "topic": "chemistry topic 2",
+        "difficulty": "medium",
+        "type": "mcq",
+        "text": "[Chemistry MCQ 2] Solve: $2+1$ equals?",
+        "image": "",
+        "options": [
+          {
+            "text": "2",
+            "image": ""
+          },
+          {
+            "text": "3",
+            "image": ""
+          },
+          {
+            "text": "4",
+            "image": ""
+          },
+          {
+            "text": "5",
+            "image": ""
+          }
+        ],
+        "correct": 1
+      },
+      {
+        "subject": "chemistry",
+        "topic": "chemistry topic 3",
+        "difficulty": "hard",
+        "type": "mcq",
+        "text": "[Chemistry MCQ 3] Solve: $2+2$ equals?",
+        "image": "",
+        "options": [
+          {
+            "text": "3",
+            "image": ""
+          },
+          {
+            "text": "4",
+            "image": ""
+          },
+          {
+            "text": "5",
+            "image": ""
+          },
+          {
+            "text": "6",
+            "image": ""
+          }
+        ],
+        "correct": 1
+      },
+      {
+        "subject": "chemistry",
+        "topic": "chemistry topic 4",
+        "difficulty": "easy",
+        "type": "mcq",
+        "text": "[Chemistry MCQ 4] Solve: $2+3$ equals?",
+        "image": "",
+        "options": [
+          {
+            "text": "4",
+            "image": ""
+          },
+          {
+            "text": "5",
+            "image": ""
+          },
+          {
+            "text": "6",
+            "image": ""
+          },
+          {
+            "text": "7",
+            "image": ""
+          }
+        ],
+        "correct": 1
+      },
+      {
+        "subject": "chemistry",
+        "topic": "chemistry topic 5",
+        "difficulty": "medium",
+        "type": "mcq",
+        "text": "[Chemistry MCQ 5] Solve: $2+4$ equals?",
+        "image": "",
+        "options": [
+          {
+            "text": "5",
+            "image": ""
+          },
+          {
+            "text": "6",
+            "image": ""
+          },
+          {
+            "text": "7",
+            "image": ""
+          },
+          {
+            "text": "8",
+            "image": ""
+          }
+        ],
+        "correct": 1
+      },
+      {
+        "subject": "chemistry",
+        "topic": "chemistry topic 1",
+        "difficulty": "hard",
+        "type": "mcq",
+        "text": "[Chemistry MCQ 6] Solve: $2+5$ equals?",
+        "image": "",
+        "options": [
+          {
+            "text": "6",
+            "image": ""
+          },
+          {
+            "text": "7",
+            "image": ""
+          },
+          {
+            "text": "8",
+            "image": ""
+          },
+          {
+            "text": "9",
+            "image": ""
+          }
+        ],
+        "correct": 1
+      },
+      {
+        "subject": "chemistry",
+        "topic": "chemistry topic 2",
+        "difficulty": "easy",
+        "type": "mcq",
+        "text": "[Chemistry MCQ 7] Solve: $2+6$ equals?",
+        "image": "",
+        "options": [
+          {
+            "text": "7",
+            "image": ""
+          },
+          {
+            "text": "8",
+            "image": ""
+          },
+          {
+            "text": "9",
+            "image": ""
+          },
+          {
+            "text": "10",
+            "image": ""
+          }
+        ],
+        "correct": 1
+      },
+      {
+        "subject": "chemistry",
+        "topic": "chemistry topic 3",
+        "difficulty": "medium",
+        "type": "mcq",
+        "text": "[Chemistry MCQ 8] Solve: $2+0$ equals?",
+        "image": "",
+        "options": [
+          {
+            "text": "1",
+            "image": ""
+          },
+          {
+            "text": "2",
+            "image": ""
+          },
+          {
+            "text": "3",
+            "image": ""
+          },
+          {
+            "text": "4",
+            "image": ""
+          }
+        ],
+        "correct": 1
+      },
+      {
+        "subject": "chemistry",
+        "topic": "chemistry topic 4",
+        "difficulty": "hard",
+        "type": "mcq",
+        "text": "[Chemistry MCQ 9] Solve: $2+1$ equals?",
+        "image": "",
+        "options": [
+          {
+            "text": "2",
+            "image": ""
+          },
+          {
+            "text": "3",
+            "image": ""
+          },
+          {
+            "text": "4",
+            "image": ""
+          },
+          {
+            "text": "5",
+            "image": ""
+          }
+        ],
+        "correct": 1
+      },
+      {
+        "subject": "chemistry",
+        "topic": "chemistry topic 5",
+        "difficulty": "easy",
+        "type": "mcq",
+        "text": "[Chemistry MCQ 10] Solve: $2+2$ equals?",
+        "image": "",
+        "options": [
+          {
+            "text": "3",
+            "image": ""
+          },
+          {
+            "text": "4",
+            "image": ""
+          },
+          {
+            "text": "5",
+            "image": ""
+          },
+          {
+            "text": "6",
+            "image": ""
+          }
+        ],
+        "correct": 1
+      },
+      {
+        "subject": "chemistry",
+        "topic": "chemistry topic 1",
+        "difficulty": "medium",
+        "type": "mcq",
+        "text": "[Chemistry MCQ 11] Solve: $2+3$ equals?",
+        "image": "",
+        "options": [
+          {
+            "text": "4",
+            "image": ""
+          },
+          {
+            "text": "5",
+            "image": ""
+          },
+          {
+            "text": "6",
+            "image": ""
+          },
+          {
+            "text": "7",
+            "image": ""
+          }
+        ],
+        "correct": 1
+      },
+      {
+        "subject": "chemistry",
+        "topic": "chemistry topic 2",
+        "difficulty": "hard",
+        "type": "mcq",
+        "text": "[Chemistry MCQ 12] Solve: $2+4$ equals?",
+        "image": "",
+        "options": [
+          {
+            "text": "5",
+            "image": ""
+          },
+          {
+            "text": "6",
+            "image": ""
+          },
+          {
+            "text": "7",
+            "image": ""
+          },
+          {
+            "text": "8",
+            "image": ""
+          }
+        ],
+        "correct": 1
+      },
+      {
+        "subject": "chemistry",
+        "topic": "chemistry topic 3",
+        "difficulty": "easy",
+        "type": "mcq",
+        "text": "[Chemistry MCQ 13] Solve: $2+5$ equals?",
+        "image": "",
+        "options": [
+          {
+            "text": "6",
+            "image": ""
+          },
+          {
+            "text": "7",
+            "image": ""
+          },
+          {
+            "text": "8",
+            "image": ""
+          },
+          {
+            "text": "9",
+            "image": ""
+          }
+        ],
+        "correct": 1
+      },
+      {
+        "subject": "chemistry",
+        "topic": "chemistry topic 4",
+        "difficulty": "medium",
+        "type": "mcq",
+        "text": "[Chemistry MCQ 14] Solve: $2+6$ equals?",
+        "image": "",
+        "options": [
+          {
+            "text": "7",
+            "image": ""
+          },
+          {
+            "text": "8",
+            "image": ""
+          },
+          {
+            "text": "9",
+            "image": ""
+          },
+          {
+            "text": "10",
+            "image": ""
+          }
+        ],
+        "correct": 1
+      },
+      {
+        "subject": "chemistry",
+        "topic": "chemistry topic 5",
+        "difficulty": "hard",
+        "type": "mcq",
+        "text": "[Chemistry MCQ 15] Solve: $2+0$ equals?",
+        "image": "",
+        "options": [
+          {
+            "text": "1",
+            "image": ""
+          },
+          {
+            "text": "2",
+            "image": ""
+          },
+          {
+            "text": "3",
+            "image": ""
+          },
+          {
+            "text": "4",
+            "image": ""
+          }
+        ],
+        "correct": 1
+      },
+      {
+        "subject": "chemistry",
+        "topic": "chemistry topic 1",
+        "difficulty": "easy",
+        "type": "mcq",
+        "text": "[Chemistry MCQ 16] Solve: $2+1$ equals?",
+        "image": "",
+        "options": [
+          {
+            "text": "2",
+            "image": ""
+          },
+          {
+            "text": "3",
+            "image": ""
+          },
+          {
+            "text": "4",
+            "image": ""
+          },
+          {
+            "text": "5",
+            "image": ""
+          }
+        ],
+        "correct": 1
+      },
+      {
+        "subject": "chemistry",
+        "topic": "chemistry topic 2",
+        "difficulty": "medium",
+        "type": "mcq",
+        "text": "[Chemistry MCQ 17] Solve: $2+2$ equals?",
+        "image": "",
+        "options": [
+          {
+            "text": "3",
+            "image": ""
+          },
+          {
+            "text": "4",
+            "image": ""
+          },
+          {
+            "text": "5",
+            "image": ""
+          },
+          {
+            "text": "6",
+            "image": ""
+          }
+        ],
+        "correct": 1
+      },
+      {
+        "subject": "chemistry",
+        "topic": "chemistry topic 3",
+        "difficulty": "hard",
+        "type": "mcq",
+        "text": "[Chemistry MCQ 18] Solve: $2+3$ equals?",
+        "image": "",
+        "options": [
+          {
+            "text": "4",
+            "image": ""
+          },
+          {
+            "text": "5",
+            "image": ""
+          },
+          {
+            "text": "6",
+            "image": ""
+          },
+          {
+            "text": "7",
+            "image": ""
+          }
+        ],
+        "correct": 1
+      },
+      {
+        "subject": "chemistry",
+        "topic": "chemistry topic 4",
+        "difficulty": "easy",
+        "type": "mcq",
+        "text": "[Chemistry MCQ 19] Solve: $2+4$ equals?",
+        "image": "",
+        "options": [
+          {
+            "text": "5",
+            "image": ""
+          },
+          {
+            "text": "6",
+            "image": ""
+          },
+          {
+            "text": "7",
+            "image": ""
+          },
+          {
+            "text": "8",
+            "image": ""
+          }
+        ],
+        "correct": 1
+      },
+      {
+        "subject": "chemistry",
+        "topic": "chemistry topic 5",
+        "difficulty": "medium",
+        "type": "mcq",
+        "text": "[Chemistry MCQ 20] Solve: $2+5$ equals?",
+        "image": "",
+        "options": [
+          {
+            "text": "6",
+            "image": ""
+          },
+          {
+            "text": "7",
+            "image": ""
+          },
+          {
+            "text": "8",
+            "image": ""
+          },
+          {
+            "text": "9",
+            "image": ""
+          }
+        ],
+        "correct": 1
+      },
+      {
+        "subject": "chemistry",
+        "topic": "chemistry numericals",
+        "difficulty": "easy",
+        "type": "integer",
+        "text": "[Chemistry Integer 1] Enter the value of $5+5$.",
+        "image": "",
+        "answer": 10
+      },
+      {
+        "subject": "chemistry",
+        "topic": "chemistry numericals",
+        "difficulty": "medium",
+        "type": "integer",
+        "text": "[Chemistry Integer 2] Enter the value of $5+6$.",
+        "image": "",
+        "answer": 11
+      },
+      {
+        "subject": "chemistry",
+        "topic": "chemistry numericals",
+        "difficulty": "hard",
+        "type": "integer",
+        "text": "[Chemistry Integer 3] Enter the value of $5+7$.",
+        "image": "",
+        "answer": 12
+      },
+      {
+        "subject": "chemistry",
+        "topic": "chemistry numericals",
+        "difficulty": "easy",
+        "type": "integer",
+        "text": "[Chemistry Integer 4] Enter the value of $5+8$.",
+        "image": "",
+        "answer": 13
+      },
+      {
+        "subject": "chemistry",
+        "topic": "chemistry numericals",
+        "difficulty": "medium",
+        "type": "integer",
+        "text": "[Chemistry Integer 5] Enter the value of $5+9$.",
+        "image": "",
+        "answer": 14
+      },
+      {
+        "subject": "mathematics",
+        "topic": "mathematics topic 1",
+        "difficulty": "easy",
+        "type": "mcq",
+        "text": "[Mathematics MCQ 1] Solve: $2+0$ equals?",
+        "image": "",
+        "options": [
+          {
+            "text": "1",
+            "image": ""
+          },
+          {
+            "text": "2",
+            "image": ""
+          },
+          {
+            "text": "3",
+            "image": ""
+          },
+          {
+            "text": "4",
+            "image": ""
+          }
+        ],
+        "correct": 1
+      },
+      {
+        "subject": "mathematics",
+        "topic": "mathematics topic 2",
+        "difficulty": "medium",
+        "type": "mcq",
+        "text": "[Mathematics MCQ 2] Solve: $2+1$ equals?",
+        "image": "",
+        "options": [
+          {
+            "text": "2",
+            "image": ""
+          },
+          {
+            "text": "3",
+            "image": ""
+          },
+          {
+            "text": "4",
+            "image": ""
+          },
+          {
+            "text": "5",
+            "image": ""
+          }
+        ],
+        "correct": 1
+      },
+      {
+        "subject": "mathematics",
+        "topic": "mathematics topic 3",
+        "difficulty": "hard",
+        "type": "mcq",
+        "text": "[Mathematics MCQ 3] Solve: $2+2$ equals?",
+        "image": "",
+        "options": [
+          {
+            "text": "3",
+            "image": ""
+          },
+          {
+            "text": "4",
+            "image": ""
+          },
+          {
+            "text": "5",
+            "image": ""
+          },
+          {
+            "text": "6",
+            "image": ""
+          }
+        ],
+        "correct": 1
+      },
+      {
+        "subject": "mathematics",
+        "topic": "mathematics topic 4",
+        "difficulty": "easy",
+        "type": "mcq",
+        "text": "[Mathematics MCQ 4] Solve: $2+3$ equals?",
+        "image": "",
+        "options": [
+          {
+            "text": "4",
+            "image": ""
+          },
+          {
+            "text": "5",
+            "image": ""
+          },
+          {
+            "text": "6",
+            "image": ""
+          },
+          {
+            "text": "7",
+            "image": ""
+          }
+        ],
+        "correct": 1
+      },
+      {
+        "subject": "mathematics",
+        "topic": "mathematics topic 5",
+        "difficulty": "medium",
+        "type": "mcq",
+        "text": "[Mathematics MCQ 5] Solve: $2+4$ equals?",
+        "image": "",
+        "options": [
+          {
+            "text": "5",
+            "image": ""
+          },
+          {
+            "text": "6",
+            "image": ""
+          },
+          {
+            "text": "7",
+            "image": ""
+          },
+          {
+            "text": "8",
+            "image": ""
+          }
+        ],
+        "correct": 1
+      },
+      {
+        "subject": "mathematics",
+        "topic": "mathematics topic 1",
+        "difficulty": "hard",
+        "type": "mcq",
+        "text": "[Mathematics MCQ 6] Solve: $2+5$ equals?",
+        "image": "",
+        "options": [
+          {
+            "text": "6",
+            "image": ""
+          },
+          {
+            "text": "7",
+            "image": ""
+          },
+          {
+            "text": "8",
+            "image": ""
+          },
+          {
+            "text": "9",
+            "image": ""
+          }
+        ],
+        "correct": 1
+      },
+      {
+        "subject": "mathematics",
+        "topic": "mathematics topic 2",
+        "difficulty": "easy",
+        "type": "mcq",
+        "text": "[Mathematics MCQ 7] Solve: $2+6$ equals?",
+        "image": "",
+        "options": [
+          {
+            "text": "7",
+            "image": ""
+          },
+          {
+            "text": "8",
+            "image": ""
+          },
+          {
+            "text": "9",
+            "image": ""
+          },
+          {
+            "text": "10",
+            "image": ""
+          }
+        ],
+        "correct": 1
+      },
+      {
+        "subject": "mathematics",
+        "topic": "mathematics topic 3",
+        "difficulty": "medium",
+        "type": "mcq",
+        "text": "[Mathematics MCQ 8] Solve: $2+0$ equals?",
+        "image": "",
+        "options": [
+          {
+            "text": "1",
+            "image": ""
+          },
+          {
+            "text": "2",
+            "image": ""
+          },
+          {
+            "text": "3",
+            "image": ""
+          },
+          {
+            "text": "4",
+            "image": ""
+          }
+        ],
+        "correct": 1
+      },
+      {
+        "subject": "mathematics",
+        "topic": "mathematics topic 4",
+        "difficulty": "hard",
+        "type": "mcq",
+        "text": "[Mathematics MCQ 9] Solve: $2+1$ equals?",
+        "image": "",
+        "options": [
+          {
+            "text": "2",
+            "image": ""
+          },
+          {
+            "text": "3",
+            "image": ""
+          },
+          {
+            "text": "4",
+            "image": ""
+          },
+          {
+            "text": "5",
+            "image": ""
+          }
+        ],
+        "correct": 1
+      },
+      {
+        "subject": "mathematics",
+        "topic": "mathematics topic 5",
+        "difficulty": "easy",
+        "type": "mcq",
+        "text": "[Mathematics MCQ 10] Solve: $2+2$ equals?",
+        "image": "",
+        "options": [
+          {
+            "text": "3",
+            "image": ""
+          },
+          {
+            "text": "4",
+            "image": ""
+          },
+          {
+            "text": "5",
+            "image": ""
+          },
+          {
+            "text": "6",
+            "image": ""
+          }
+        ],
+        "correct": 1
+      },
+      {
+        "subject": "mathematics",
+        "topic": "mathematics topic 1",
+        "difficulty": "medium",
+        "type": "mcq",
+        "text": "[Mathematics MCQ 11] Solve: $2+3$ equals?",
+        "image": "",
+        "options": [
+          {
+            "text": "4",
+            "image": ""
+          },
+          {
+            "text": "5",
+            "image": ""
+          },
+          {
+            "text": "6",
+            "image": ""
+          },
+          {
+            "text": "7",
+            "image": ""
+          }
+        ],
+        "correct": 1
+      },
+      {
+        "subject": "mathematics",
+        "topic": "mathematics topic 2",
+        "difficulty": "hard",
+        "type": "mcq",
+        "text": "[Mathematics MCQ 12] Solve: $2+4$ equals?",
+        "image": "",
+        "options": [
+          {
+            "text": "5",
+            "image": ""
+          },
+          {
+            "text": "6",
+            "image": ""
+          },
+          {
+            "text": "7",
+            "image": ""
+          },
+          {
+            "text": "8",
+            "image": ""
+          }
+        ],
+        "correct": 1
+      },
+      {
+        "subject": "mathematics",
+        "topic": "mathematics topic 3",
+        "difficulty": "easy",
+        "type": "mcq",
+        "text": "[Mathematics MCQ 13] Solve: $2+5$ equals?",
+        "image": "",
+        "options": [
+          {
+            "text": "6",
+            "image": ""
+          },
+          {
+            "text": "7",
+            "image": ""
+          },
+          {
+            "text": "8",
+            "image": ""
+          },
+          {
+            "text": "9",
+            "image": ""
+          }
+        ],
+        "correct": 1
+      },
+      {
+        "subject": "mathematics",
+        "topic": "mathematics topic 4",
+        "difficulty": "medium",
+        "type": "mcq",
+        "text": "[Mathematics MCQ 14] Solve: $2+6$ equals?",
+        "image": "",
+        "options": [
+          {
+            "text": "7",
+            "image": ""
+          },
+          {
+            "text": "8",
+            "image": ""
+          },
+          {
+            "text": "9",
+            "image": ""
+          },
+          {
+            "text": "10",
+            "image": ""
+          }
+        ],
+        "correct": 1
+      },
+      {
+        "subject": "mathematics",
+        "topic": "mathematics topic 5",
+        "difficulty": "hard",
+        "type": "mcq",
+        "text": "[Mathematics MCQ 15] Solve: $2+0$ equals?",
+        "image": "",
+        "options": [
+          {
+            "text": "1",
+            "image": ""
+          },
+          {
+            "text": "2",
+            "image": ""
+          },
+          {
+            "text": "3",
+            "image": ""
+          },
+          {
+            "text": "4",
+            "image": ""
+          }
+        ],
+        "correct": 1
+      },
+      {
+        "subject": "mathematics",
+        "topic": "mathematics topic 1",
+        "difficulty": "easy",
+        "type": "mcq",
+        "text": "[Mathematics MCQ 16] Solve: $2+1$ equals?",
+        "image": "",
+        "options": [
+          {
+            "text": "2",
+            "image": ""
+          },
+          {
+            "text": "3",
+            "image": ""
+          },
+          {
+            "text": "4",
+            "image": ""
+          },
+          {
+            "text": "5",
+            "image": ""
+          }
+        ],
+        "correct": 1
+      },
+      {
+        "subject": "mathematics",
+        "topic": "mathematics topic 2",
+        "difficulty": "medium",
+        "type": "mcq",
+        "text": "[Mathematics MCQ 17] Solve: $2+2$ equals?",
+        "image": "",
+        "options": [
+          {
+            "text": "3",
+            "image": ""
+          },
+          {
+            "text": "4",
+            "image": ""
+          },
+          {
+            "text": "5",
+            "image": ""
+          },
+          {
+            "text": "6",
+            "image": ""
+          }
+        ],
+        "correct": 1
+      },
+      {
+        "subject": "mathematics",
+        "topic": "mathematics topic 3",
+        "difficulty": "hard",
+        "type": "mcq",
+        "text": "[Mathematics MCQ 18] Solve: $2+3$ equals?",
+        "image": "",
+        "options": [
+          {
+            "text": "4",
+            "image": ""
+          },
+          {
+            "text": "5",
+            "image": ""
+          },
+          {
+            "text": "6",
+            "image": ""
+          },
+          {
+            "text": "7",
+            "image": ""
+          }
+        ],
+        "correct": 1
+      },
+      {
+        "subject": "mathematics",
+        "topic": "mathematics topic 4",
+        "difficulty": "easy",
+        "type": "mcq",
+        "text": "[Mathematics MCQ 19] Solve: $2+4$ equals?",
+        "image": "",
+        "options": [
+          {
+            "text": "5",
+            "image": ""
+          },
+          {
+            "text": "6",
+            "image": ""
+          },
+          {
+            "text": "7",
+            "image": ""
+          },
+          {
+            "text": "8",
+            "image": ""
+          }
+        ],
+        "correct": 1
+      },
+      {
+        "subject": "mathematics",
+        "topic": "mathematics topic 5",
+        "difficulty": "medium",
+        "type": "mcq",
+        "text": "[Mathematics MCQ 20] Solve: $2+5$ equals?",
+        "image": "",
+        "options": [
+          {
+            "text": "6",
+            "image": ""
+          },
+          {
+            "text": "7",
+            "image": ""
+          },
+          {
+            "text": "8",
+            "image": ""
+          },
+          {
+            "text": "9",
+            "image": ""
+          }
+        ],
+        "correct": 1
+      },
+      {
+        "subject": "mathematics",
+        "topic": "mathematics numericals",
+        "difficulty": "easy",
+        "type": "integer",
+        "text": "[Mathematics Integer 1] Enter the value of $5+5$.",
+        "image": "",
+        "answer": 10
+      },
+      {
+        "subject": "mathematics",
+        "topic": "mathematics numericals",
+        "difficulty": "medium",
+        "type": "integer",
+        "text": "[Mathematics Integer 2] Enter the value of $5+6$.",
+        "image": "",
+        "answer": 11
+      },
+      {
+        "subject": "mathematics",
+        "topic": "mathematics numericals",
+        "difficulty": "hard",
+        "type": "integer",
+        "text": "[Mathematics Integer 3] Enter the value of $5+7$.",
+        "image": "",
+        "answer": 12
+      },
+      {
+        "subject": "mathematics",
+        "topic": "mathematics numericals",
+        "difficulty": "easy",
+        "type": "integer",
+        "text": "[Mathematics Integer 4] Enter the value of $5+8$.",
+        "image": "",
+        "answer": 13
+      },
+      {
+        "subject": "mathematics",
+        "topic": "mathematics numericals",
+        "difficulty": "medium",
+        "type": "integer",
+        "text": "[Mathematics Integer 5] Enter the value of $5+9$.",
+        "image": "",
+        "answer": 14
+      }
+    ],
+    "shift-2": [
+      {
+        "subject": "physics",
+        "topic": "physics topic 1",
+        "difficulty": "easy",
+        "type": "mcq",
+        "text": "[Physics MCQ 31] Solve: $2+2$ equals?",
+        "image": "",
+        "options": [
+          {
+            "text": "3",
+            "image": ""
+          },
+          {
+            "text": "4",
+            "image": ""
+          },
+          {
+            "text": "5",
+            "image": ""
+          },
+          {
+            "text": "6",
+            "image": ""
+          }
+        ],
+        "correct": 1
+      },
+      {
+        "subject": "physics",
+        "topic": "physics topic 2",
+        "difficulty": "medium",
+        "type": "mcq",
+        "text": "[Physics MCQ 32] Solve: $2+3$ equals?",
+        "image": "",
+        "options": [
+          {
+            "text": "4",
+            "image": ""
+          },
+          {
+            "text": "5",
+            "image": ""
+          },
+          {
+            "text": "6",
+            "image": ""
+          },
+          {
+            "text": "7",
+            "image": ""
+          }
+        ],
+        "correct": 1
+      },
+      {
+        "subject": "physics",
+        "topic": "physics topic 3",
+        "difficulty": "hard",
+        "type": "mcq",
+        "text": "[Physics MCQ 33] Solve: $2+4$ equals?",
+        "image": "",
+        "options": [
+          {
+            "text": "5",
+            "image": ""
+          },
+          {
+            "text": "6",
+            "image": ""
+          },
+          {
+            "text": "7",
+            "image": ""
+          },
+          {
+            "text": "8",
+            "image": ""
+          }
+        ],
+        "correct": 1
+      },
+      {
+        "subject": "physics",
+        "topic": "physics topic 4",
+        "difficulty": "easy",
+        "type": "mcq",
+        "text": "[Physics MCQ 34] Solve: $2+5$ equals?",
+        "image": "",
+        "options": [
+          {
+            "text": "6",
+            "image": ""
+          },
+          {
+            "text": "7",
+            "image": ""
+          },
+          {
+            "text": "8",
+            "image": ""
+          },
+          {
+            "text": "9",
+            "image": ""
+          }
+        ],
+        "correct": 1
+      },
+      {
+        "subject": "physics",
+        "topic": "physics topic 5",
+        "difficulty": "medium",
+        "type": "mcq",
+        "text": "[Physics MCQ 35] Solve: $2+6$ equals?",
+        "image": "",
+        "options": [
+          {
+            "text": "7",
+            "image": ""
+          },
+          {
+            "text": "8",
+            "image": ""
+          },
+          {
+            "text": "9",
+            "image": ""
+          },
+          {
+            "text": "10",
+            "image": ""
+          }
+        ],
+        "correct": 1
+      },
+      {
+        "subject": "physics",
+        "topic": "physics topic 1",
+        "difficulty": "hard",
+        "type": "mcq",
+        "text": "[Physics MCQ 36] Solve: $2+0$ equals?",
+        "image": "",
+        "options": [
+          {
+            "text": "1",
+            "image": ""
+          },
+          {
+            "text": "2",
+            "image": ""
+          },
+          {
+            "text": "3",
+            "image": ""
+          },
+          {
+            "text": "4",
+            "image": ""
+          }
+        ],
+        "correct": 1
+      },
+      {
+        "subject": "physics",
+        "topic": "physics topic 2",
+        "difficulty": "easy",
+        "type": "mcq",
+        "text": "[Physics MCQ 37] Solve: $2+1$ equals?",
+        "image": "",
+        "options": [
+          {
+            "text": "2",
+            "image": ""
+          },
+          {
+            "text": "3",
+            "image": ""
+          },
+          {
+            "text": "4",
+            "image": ""
+          },
+          {
+            "text": "5",
+            "image": ""
+          }
+        ],
+        "correct": 1
+      },
+      {
+        "subject": "physics",
+        "topic": "physics topic 3",
+        "difficulty": "medium",
+        "type": "mcq",
+        "text": "[Physics MCQ 38] Solve: $2+2$ equals?",
+        "image": "",
+        "options": [
+          {
+            "text": "3",
+            "image": ""
+          },
+          {
+            "text": "4",
+            "image": ""
+          },
+          {
+            "text": "5",
+            "image": ""
+          },
+          {
+            "text": "6",
+            "image": ""
+          }
+        ],
+        "correct": 1
+      },
+      {
+        "subject": "physics",
+        "topic": "physics topic 4",
+        "difficulty": "hard",
+        "type": "mcq",
+        "text": "[Physics MCQ 39] Solve: $2+3$ equals?",
+        "image": "",
+        "options": [
+          {
+            "text": "4",
+            "image": ""
+          },
+          {
+            "text": "5",
+            "image": ""
+          },
+          {
+            "text": "6",
+            "image": ""
+          },
+          {
+            "text": "7",
+            "image": ""
+          }
+        ],
+        "correct": 1
+      },
+      {
+        "subject": "physics",
+        "topic": "physics topic 5",
+        "difficulty": "easy",
+        "type": "mcq",
+        "text": "[Physics MCQ 40] Solve: $2+4$ equals?",
+        "image": "",
+        "options": [
+          {
+            "text": "5",
+            "image": ""
+          },
+          {
+            "text": "6",
+            "image": ""
+          },
+          {
+            "text": "7",
+            "image": ""
+          },
+          {
+            "text": "8",
+            "image": ""
+          }
+        ],
+        "correct": 1
+      },
+      {
+        "subject": "physics",
+        "topic": "physics topic 1",
+        "difficulty": "medium",
+        "type": "mcq",
+        "text": "[Physics MCQ 41] Solve: $2+5$ equals?",
+        "image": "",
+        "options": [
+          {
+            "text": "6",
+            "image": ""
+          },
+          {
+            "text": "7",
+            "image": ""
+          },
+          {
+            "text": "8",
+            "image": ""
+          },
+          {
+            "text": "9",
+            "image": ""
+          }
+        ],
+        "correct": 1
+      },
+      {
+        "subject": "physics",
+        "topic": "physics topic 2",
+        "difficulty": "hard",
+        "type": "mcq",
+        "text": "[Physics MCQ 42] Solve: $2+6$ equals?",
+        "image": "",
+        "options": [
+          {
+            "text": "7",
+            "image": ""
+          },
+          {
+            "text": "8",
+            "image": ""
+          },
+          {
+            "text": "9",
+            "image": ""
+          },
+          {
+            "text": "10",
+            "image": ""
+          }
+        ],
+        "correct": 1
+      },
+      {
+        "subject": "physics",
+        "topic": "physics topic 3",
+        "difficulty": "easy",
+        "type": "mcq",
+        "text": "[Physics MCQ 43] Solve: $2+0$ equals?",
+        "image": "",
+        "options": [
+          {
+            "text": "1",
+            "image": ""
+          },
+          {
+            "text": "2",
+            "image": ""
+          },
+          {
+            "text": "3",
+            "image": ""
+          },
+          {
+            "text": "4",
+            "image": ""
+          }
+        ],
+        "correct": 1
+      },
+      {
+        "subject": "physics",
+        "topic": "physics topic 4",
+        "difficulty": "medium",
+        "type": "mcq",
+        "text": "[Physics MCQ 44] Solve: $2+1$ equals?",
+        "image": "",
+        "options": [
+          {
+            "text": "2",
+            "image": ""
+          },
+          {
+            "text": "3",
+            "image": ""
+          },
+          {
+            "text": "4",
+            "image": ""
+          },
+          {
+            "text": "5",
+            "image": ""
+          }
+        ],
+        "correct": 1
+      },
+      {
+        "subject": "physics",
+        "topic": "physics topic 5",
+        "difficulty": "hard",
+        "type": "mcq",
+        "text": "[Physics MCQ 45] Solve: $2+2$ equals?",
+        "image": "",
+        "options": [
+          {
+            "text": "3",
+            "image": ""
+          },
+          {
+            "text": "4",
+            "image": ""
+          },
+          {
+            "text": "5",
+            "image": ""
+          },
+          {
+            "text": "6",
+            "image": ""
+          }
+        ],
+        "correct": 1
+      },
+      {
+        "subject": "physics",
+        "topic": "physics topic 1",
+        "difficulty": "easy",
+        "type": "mcq",
+        "text": "[Physics MCQ 46] Solve: $2+3$ equals?",
+        "image": "",
+        "options": [
+          {
+            "text": "4",
+            "image": ""
+          },
+          {
+            "text": "5",
+            "image": ""
+          },
+          {
+            "text": "6",
+            "image": ""
+          },
+          {
+            "text": "7",
+            "image": ""
+          }
+        ],
+        "correct": 1
+      },
+      {
+        "subject": "physics",
+        "topic": "physics topic 2",
+        "difficulty": "medium",
+        "type": "mcq",
+        "text": "[Physics MCQ 47] Solve: $2+4$ equals?",
+        "image": "",
+        "options": [
+          {
+            "text": "5",
+            "image": ""
+          },
+          {
+            "text": "6",
+            "image": ""
+          },
+          {
+            "text": "7",
+            "image": ""
+          },
+          {
+            "text": "8",
+            "image": ""
+          }
+        ],
+        "correct": 1
+      },
+      {
+        "subject": "physics",
+        "topic": "physics topic 3",
+        "difficulty": "hard",
+        "type": "mcq",
+        "text": "[Physics MCQ 48] Solve: $2+5$ equals?",
+        "image": "",
+        "options": [
+          {
+            "text": "6",
+            "image": ""
+          },
+          {
+            "text": "7",
+            "image": ""
+          },
+          {
+            "text": "8",
+            "image": ""
+          },
+          {
+            "text": "9",
+            "image": ""
+          }
+        ],
+        "correct": 1
+      },
+      {
+        "subject": "physics",
+        "topic": "physics topic 4",
+        "difficulty": "easy",
+        "type": "mcq",
+        "text": "[Physics MCQ 49] Solve: $2+6$ equals?",
+        "image": "",
+        "options": [
+          {
+            "text": "7",
+            "image": ""
+          },
+          {
+            "text": "8",
+            "image": ""
+          },
+          {
+            "text": "9",
+            "image": ""
+          },
+          {
+            "text": "10",
+            "image": ""
+          }
+        ],
+        "correct": 1
+      },
+      {
+        "subject": "physics",
+        "topic": "physics topic 5",
+        "difficulty": "medium",
+        "type": "mcq",
+        "text": "[Physics MCQ 50] Solve: $2+0$ equals?",
+        "image": "",
+        "options": [
+          {
+            "text": "1",
+            "image": ""
+          },
+          {
+            "text": "2",
+            "image": ""
+          },
+          {
+            "text": "3",
+            "image": ""
+          },
+          {
+            "text": "4",
+            "image": ""
+          }
+        ],
+        "correct": 1
+      },
+      {
+        "subject": "physics",
+        "topic": "physics numericals",
+        "difficulty": "easy",
+        "type": "integer",
+        "text": "[Physics Integer 31] Enter the value of $5+35$.",
+        "image": "",
+        "answer": 40
+      },
+      {
+        "subject": "physics",
+        "topic": "physics numericals",
+        "difficulty": "medium",
+        "type": "integer",
+        "text": "[Physics Integer 32] Enter the value of $5+36$.",
+        "image": "",
+        "answer": 41
+      },
+      {
+        "subject": "physics",
+        "topic": "physics numericals",
+        "difficulty": "hard",
+        "type": "integer",
+        "text": "[Physics Integer 33] Enter the value of $5+37$.",
+        "image": "",
+        "answer": 42
+      },
+      {
+        "subject": "physics",
+        "topic": "physics numericals",
+        "difficulty": "easy",
+        "type": "integer",
+        "text": "[Physics Integer 34] Enter the value of $5+38$.",
+        "image": "",
+        "answer": 43
+      },
+      {
+        "subject": "physics",
+        "topic": "physics numericals",
+        "difficulty": "medium",
+        "type": "integer",
+        "text": "[Physics Integer 35] Enter the value of $5+39$.",
+        "image": "",
+        "answer": 44
+      },
+      {
+        "subject": "chemistry",
+        "topic": "chemistry topic 1",
+        "difficulty": "easy",
+        "type": "mcq",
+        "text": "[Chemistry MCQ 31] Solve: $2+2$ equals?",
+        "image": "",
+        "options": [
+          {
+            "text": "3",
+            "image": ""
+          },
+          {
+            "text": "4",
+            "image": ""
+          },
+          {
+            "text": "5",
+            "image": ""
+          },
+          {
+            "text": "6",
+            "image": ""
+          }
+        ],
+        "correct": 1
+      },
+      {
+        "subject": "chemistry",
+        "topic": "chemistry topic 2",
+        "difficulty": "medium",
+        "type": "mcq",
+        "text": "[Chemistry MCQ 32] Solve: $2+3$ equals?",
+        "image": "",
+        "options": [
+          {
+            "text": "4",
+            "image": ""
+          },
+          {
+            "text": "5",
+            "image": ""
+          },
+          {
+            "text": "6",
+            "image": ""
+          },
+          {
+            "text": "7",
+            "image": ""
+          }
+        ],
+        "correct": 1
+      },
+      {
+        "subject": "chemistry",
+        "topic": "chemistry topic 3",
+        "difficulty": "hard",
+        "type": "mcq",
+        "text": "[Chemistry MCQ 33] Solve: $2+4$ equals?",
+        "image": "",
+        "options": [
+          {
+            "text": "5",
+            "image": ""
+          },
+          {
+            "text": "6",
+            "image": ""
+          },
+          {
+            "text": "7",
+            "image": ""
+          },
+          {
+            "text": "8",
+            "image": ""
+          }
+        ],
+        "correct": 1
+      },
+      {
+        "subject": "chemistry",
+        "topic": "chemistry topic 4",
+        "difficulty": "easy",
+        "type": "mcq",
+        "text": "[Chemistry MCQ 34] Solve: $2+5$ equals?",
+        "image": "",
+        "options": [
+          {
+            "text": "6",
+            "image": ""
+          },
+          {
+            "text": "7",
+            "image": ""
+          },
+          {
+            "text": "8",
+            "image": ""
+          },
+          {
+            "text": "9",
+            "image": ""
+          }
+        ],
+        "correct": 1
+      },
+      {
+        "subject": "chemistry",
+        "topic": "chemistry topic 5",
+        "difficulty": "medium",
+        "type": "mcq",
+        "text": "[Chemistry MCQ 35] Solve: $2+6$ equals?",
+        "image": "",
+        "options": [
+          {
+            "text": "7",
+            "image": ""
+          },
+          {
+            "text": "8",
+            "image": ""
+          },
+          {
+            "text": "9",
+            "image": ""
+          },
+          {
+            "text": "10",
+            "image": ""
+          }
+        ],
+        "correct": 1
+      },
+      {
+        "subject": "chemistry",
+        "topic": "chemistry topic 1",
+        "difficulty": "hard",
+        "type": "mcq",
+        "text": "[Chemistry MCQ 36] Solve: $2+0$ equals?",
+        "image": "",
+        "options": [
+          {
+            "text": "1",
+            "image": ""
+          },
+          {
+            "text": "2",
+            "image": ""
+          },
+          {
+            "text": "3",
+            "image": ""
+          },
+          {
+            "text": "4",
+            "image": ""
+          }
+        ],
+        "correct": 1
+      },
+      {
+        "subject": "chemistry",
+        "topic": "chemistry topic 2",
+        "difficulty": "easy",
+        "type": "mcq",
+        "text": "[Chemistry MCQ 37] Solve: $2+1$ equals?",
+        "image": "",
+        "options": [
+          {
+            "text": "2",
+            "image": ""
+          },
+          {
+            "text": "3",
+            "image": ""
+          },
+          {
+            "text": "4",
+            "image": ""
+          },
+          {
+            "text": "5",
+            "image": ""
+          }
+        ],
+        "correct": 1
+      },
+      {
+        "subject": "chemistry",
+        "topic": "chemistry topic 3",
+        "difficulty": "medium",
+        "type": "mcq",
+        "text": "[Chemistry MCQ 38] Solve: $2+2$ equals?",
+        "image": "",
+        "options": [
+          {
+            "text": "3",
+            "image": ""
+          },
+          {
+            "text": "4",
+            "image": ""
+          },
+          {
+            "text": "5",
+            "image": ""
+          },
+          {
+            "text": "6",
+            "image": ""
+          }
+        ],
+        "correct": 1
+      },
+      {
+        "subject": "chemistry",
+        "topic": "chemistry topic 4",
+        "difficulty": "hard",
+        "type": "mcq",
+        "text": "[Chemistry MCQ 39] Solve: $2+3$ equals?",
+        "image": "",
+        "options": [
+          {
+            "text": "4",
+            "image": ""
+          },
+          {
+            "text": "5",
+            "image": ""
+          },
+          {
+            "text": "6",
+            "image": ""
+          },
+          {
+            "text": "7",
+            "image": ""
+          }
+        ],
+        "correct": 1
+      },
+      {
+        "subject": "chemistry",
+        "topic": "chemistry topic 5",
+        "difficulty": "easy",
+        "type": "mcq",
+        "text": "[Chemistry MCQ 40] Solve: $2+4$ equals?",
+        "image": "",
+        "options": [
+          {
+            "text": "5",
+            "image": ""
+          },
+          {
+            "text": "6",
+            "image": ""
+          },
+          {
+            "text": "7",
+            "image": ""
+          },
+          {
+            "text": "8",
+            "image": ""
+          }
+        ],
+        "correct": 1
+      },
+      {
+        "subject": "chemistry",
+        "topic": "chemistry topic 1",
+        "difficulty": "medium",
+        "type": "mcq",
+        "text": "[Chemistry MCQ 41] Solve: $2+5$ equals?",
+        "image": "",
+        "options": [
+          {
+            "text": "6",
+            "image": ""
+          },
+          {
+            "text": "7",
+            "image": ""
+          },
+          {
+            "text": "8",
+            "image": ""
+          },
+          {
+            "text": "9",
+            "image": ""
+          }
+        ],
+        "correct": 1
+      },
+      {
+        "subject": "chemistry",
+        "topic": "chemistry topic 2",
+        "difficulty": "hard",
+        "type": "mcq",
+        "text": "[Chemistry MCQ 42] Solve: $2+6$ equals?",
+        "image": "",
+        "options": [
+          {
+            "text": "7",
+            "image": ""
+          },
+          {
+            "text": "8",
+            "image": ""
+          },
+          {
+            "text": "9",
+            "image": ""
+          },
+          {
+            "text": "10",
+            "image": ""
+          }
+        ],
+        "correct": 1
+      },
+      {
+        "subject": "chemistry",
+        "topic": "chemistry topic 3",
+        "difficulty": "easy",
+        "type": "mcq",
+        "text": "[Chemistry MCQ 43] Solve: $2+0$ equals?",
+        "image": "",
+        "options": [
+          {
+            "text": "1",
+            "image": ""
+          },
+          {
+            "text": "2",
+            "image": ""
+          },
+          {
+            "text": "3",
+            "image": ""
+          },
+          {
+            "text": "4",
+            "image": ""
+          }
+        ],
+        "correct": 1
+      },
+      {
+        "subject": "chemistry",
+        "topic": "chemistry topic 4",
+        "difficulty": "medium",
+        "type": "mcq",
+        "text": "[Chemistry MCQ 44] Solve: $2+1$ equals?",
+        "image": "",
+        "options": [
+          {
+            "text": "2",
+            "image": ""
+          },
+          {
+            "text": "3",
+            "image": ""
+          },
+          {
+            "text": "4",
+            "image": ""
+          },
+          {
+            "text": "5",
+            "image": ""
+          }
+        ],
+        "correct": 1
+      },
+      {
+        "subject": "chemistry",
+        "topic": "chemistry topic 5",
+        "difficulty": "hard",
+        "type": "mcq",
+        "text": "[Chemistry MCQ 45] Solve: $2+2$ equals?",
+        "image": "",
+        "options": [
+          {
+            "text": "3",
+            "image": ""
+          },
+          {
+            "text": "4",
+            "image": ""
+          },
+          {
+            "text": "5",
+            "image": ""
+          },
+          {
+            "text": "6",
+            "image": ""
+          }
+        ],
+        "correct": 1
+      },
+      {
+        "subject": "chemistry",
+        "topic": "chemistry topic 1",
+        "difficulty": "easy",
+        "type": "mcq",
+        "text": "[Chemistry MCQ 46] Solve: $2+3$ equals?",
+        "image": "",
+        "options": [
+          {
+            "text": "4",
+            "image": ""
+          },
+          {
+            "text": "5",
+            "image": ""
+          },
+          {
+            "text": "6",
+            "image": ""
+          },
+          {
+            "text": "7",
+            "image": ""
+          }
+        ],
+        "correct": 1
+      },
+      {
+        "subject": "chemistry",
+        "topic": "chemistry topic 2",
+        "difficulty": "medium",
+        "type": "mcq",
+        "text": "[Chemistry MCQ 47] Solve: $2+4$ equals?",
+        "image": "",
+        "options": [
+          {
+            "text": "5",
+            "image": ""
+          },
+          {
+            "text": "6",
+            "image": ""
+          },
+          {
+            "text": "7",
+            "image": ""
+          },
+          {
+            "text": "8",
+            "image": ""
+          }
+        ],
+        "correct": 1
+      },
+      {
+        "subject": "chemistry",
+        "topic": "chemistry topic 3",
+        "difficulty": "hard",
+        "type": "mcq",
+        "text": "[Chemistry MCQ 48] Solve: $2+5$ equals?",
+        "image": "",
+        "options": [
+          {
+            "text": "6",
+            "image": ""
+          },
+          {
+            "text": "7",
+            "image": ""
+          },
+          {
+            "text": "8",
+            "image": ""
+          },
+          {
+            "text": "9",
+            "image": ""
+          }
+        ],
+        "correct": 1
+      },
+      {
+        "subject": "chemistry",
+        "topic": "chemistry topic 4",
+        "difficulty": "easy",
+        "type": "mcq",
+        "text": "[Chemistry MCQ 49] Solve: $2+6$ equals?",
+        "image": "",
+        "options": [
+          {
+            "text": "7",
+            "image": ""
+          },
+          {
+            "text": "8",
+            "image": ""
+          },
+          {
+            "text": "9",
+            "image": ""
+          },
+          {
+            "text": "10",
+            "image": ""
+          }
+        ],
+        "correct": 1
+      },
+      {
+        "subject": "chemistry",
+        "topic": "chemistry topic 5",
+        "difficulty": "medium",
+        "type": "mcq",
+        "text": "[Chemistry MCQ 50] Solve: $2+0$ equals?",
+        "image": "",
+        "options": [
+          {
+            "text": "1",
+            "image": ""
+          },
+          {
+            "text": "2",
+            "image": ""
+          },
+          {
+            "text": "3",
+            "image": ""
+          },
+          {
+            "text": "4",
+            "image": ""
+          }
+        ],
+        "correct": 1
+      },
+      {
+        "subject": "chemistry",
+        "topic": "chemistry numericals",
+        "difficulty": "easy",
+        "type": "integer",
+        "text": "[Chemistry Integer 31] Enter the value of $5+35$.",
+        "image": "",
+        "answer": 40
+      },
+      {
+        "subject": "chemistry",
+        "topic": "chemistry numericals",
+        "difficulty": "medium",
+        "type": "integer",
+        "text": "[Chemistry Integer 32] Enter the value of $5+36$.",
+        "image": "",
+        "answer": 41
+      },
+      {
+        "subject": "chemistry",
+        "topic": "chemistry numericals",
+        "difficulty": "hard",
+        "type": "integer",
+        "text": "[Chemistry Integer 33] Enter the value of $5+37$.",
+        "image": "",
+        "answer": 42
+      },
+      {
+        "subject": "chemistry",
+        "topic": "chemistry numericals",
+        "difficulty": "easy",
+        "type": "integer",
+        "text": "[Chemistry Integer 34] Enter the value of $5+38$.",
+        "image": "",
+        "answer": 43
+      },
+      {
+        "subject": "chemistry",
+        "topic": "chemistry numericals",
+        "difficulty": "medium",
+        "type": "integer",
+        "text": "[Chemistry Integer 35] Enter the value of $5+39$.",
+        "image": "",
+        "answer": 44
+      },
+      {
+        "subject": "mathematics",
+        "topic": "mathematics topic 1",
+        "difficulty": "easy",
+        "type": "mcq",
+        "text": "[Mathematics MCQ 31] Solve: $2+2$ equals?",
+        "image": "",
+        "options": [
+          {
+            "text": "3",
+            "image": ""
+          },
+          {
+            "text": "4",
+            "image": ""
+          },
+          {
+            "text": "5",
+            "image": ""
+          },
+          {
+            "text": "6",
+            "image": ""
+          }
+        ],
+        "correct": 1
+      },
+      {
+        "subject": "mathematics",
+        "topic": "mathematics topic 2",
+        "difficulty": "medium",
+        "type": "mcq",
+        "text": "[Mathematics MCQ 32] Solve: $2+3$ equals?",
+        "image": "",
+        "options": [
+          {
+            "text": "4",
+            "image": ""
+          },
+          {
+            "text": "5",
+            "image": ""
+          },
+          {
+            "text": "6",
+            "image": ""
+          },
+          {
+            "text": "7",
+            "image": ""
+          }
+        ],
+        "correct": 1
+      },
+      {
+        "subject": "mathematics",
+        "topic": "mathematics topic 3",
+        "difficulty": "hard",
+        "type": "mcq",
+        "text": "[Mathematics MCQ 33] Solve: $2+4$ equals?",
+        "image": "",
+        "options": [
+          {
+            "text": "5",
+            "image": ""
+          },
+          {
+            "text": "6",
+            "image": ""
+          },
+          {
+            "text": "7",
+            "image": ""
+          },
+          {
+            "text": "8",
+            "image": ""
+          }
+        ],
+        "correct": 1
+      },
+      {
+        "subject": "mathematics",
+        "topic": "mathematics topic 4",
+        "difficulty": "easy",
+        "type": "mcq",
+        "text": "[Mathematics MCQ 34] Solve: $2+5$ equals?",
+        "image": "",
+        "options": [
+          {
+            "text": "6",
+            "image": ""
+          },
+          {
+            "text": "7",
+            "image": ""
+          },
+          {
+            "text": "8",
+            "image": ""
+          },
+          {
+            "text": "9",
+            "image": ""
+          }
+        ],
+        "correct": 1
+      },
+      {
+        "subject": "mathematics",
+        "topic": "mathematics topic 5",
+        "difficulty": "medium",
+        "type": "mcq",
+        "text": "[Mathematics MCQ 35] Solve: $2+6$ equals?",
+        "image": "",
+        "options": [
+          {
+            "text": "7",
+            "image": ""
+          },
+          {
+            "text": "8",
+            "image": ""
+          },
+          {
+            "text": "9",
+            "image": ""
+          },
+          {
+            "text": "10",
+            "image": ""
+          }
+        ],
+        "correct": 1
+      },
+      {
+        "subject": "mathematics",
+        "topic": "mathematics topic 1",
+        "difficulty": "hard",
+        "type": "mcq",
+        "text": "[Mathematics MCQ 36] Solve: $2+0$ equals?",
+        "image": "",
+        "options": [
+          {
+            "text": "1",
+            "image": ""
+          },
+          {
+            "text": "2",
+            "image": ""
+          },
+          {
+            "text": "3",
+            "image": ""
+          },
+          {
+            "text": "4",
+            "image": ""
+          }
+        ],
+        "correct": 1
+      },
+      {
+        "subject": "mathematics",
+        "topic": "mathematics topic 2",
+        "difficulty": "easy",
+        "type": "mcq",
+        "text": "[Mathematics MCQ 37] Solve: $2+1$ equals?",
+        "image": "",
+        "options": [
+          {
+            "text": "2",
+            "image": ""
+          },
+          {
+            "text": "3",
+            "image": ""
+          },
+          {
+            "text": "4",
+            "image": ""
+          },
+          {
+            "text": "5",
+            "image": ""
+          }
+        ],
+        "correct": 1
+      },
+      {
+        "subject": "mathematics",
+        "topic": "mathematics topic 3",
+        "difficulty": "medium",
+        "type": "mcq",
+        "text": "[Mathematics MCQ 38] Solve: $2+2$ equals?",
+        "image": "",
+        "options": [
+          {
+            "text": "3",
+            "image": ""
+          },
+          {
+            "text": "4",
+            "image": ""
+          },
+          {
+            "text": "5",
+            "image": ""
+          },
+          {
+            "text": "6",
+            "image": ""
+          }
+        ],
+        "correct": 1
+      },
+      {
+        "subject": "mathematics",
+        "topic": "mathematics topic 4",
+        "difficulty": "hard",
+        "type": "mcq",
+        "text": "[Mathematics MCQ 39] Solve: $2+3$ equals?",
+        "image": "",
+        "options": [
+          {
+            "text": "4",
+            "image": ""
+          },
+          {
+            "text": "5",
+            "image": ""
+          },
+          {
+            "text": "6",
+            "image": ""
+          },
+          {
+            "text": "7",
+            "image": ""
+          }
+        ],
+        "correct": 1
+      },
+      {
+        "subject": "mathematics",
+        "topic": "mathematics topic 5",
+        "difficulty": "easy",
+        "type": "mcq",
+        "text": "[Mathematics MCQ 40] Solve: $2+4$ equals?",
+        "image": "",
+        "options": [
+          {
+            "text": "5",
+            "image": ""
+          },
+          {
+            "text": "6",
+            "image": ""
+          },
+          {
+            "text": "7",
+            "image": ""
+          },
+          {
+            "text": "8",
+            "image": ""
+          }
+        ],
+        "correct": 1
+      },
+      {
+        "subject": "mathematics",
+        "topic": "mathematics topic 1",
+        "difficulty": "medium",
+        "type": "mcq",
+        "text": "[Mathematics MCQ 41] Solve: $2+5$ equals?",
+        "image": "",
+        "options": [
+          {
+            "text": "6",
+            "image": ""
+          },
+          {
+            "text": "7",
+            "image": ""
+          },
+          {
+            "text": "8",
+            "image": ""
+          },
+          {
+            "text": "9",
+            "image": ""
+          }
+        ],
+        "correct": 1
+      },
+      {
+        "subject": "mathematics",
+        "topic": "mathematics topic 2",
+        "difficulty": "hard",
+        "type": "mcq",
+        "text": "[Mathematics MCQ 42] Solve: $2+6$ equals?",
+        "image": "",
+        "options": [
+          {
+            "text": "7",
+            "image": ""
+          },
+          {
+            "text": "8",
+            "image": ""
+          },
+          {
+            "text": "9",
+            "image": ""
+          },
+          {
+            "text": "10",
+            "image": ""
+          }
+        ],
+        "correct": 1
+      },
+      {
+        "subject": "mathematics",
+        "topic": "mathematics topic 3",
+        "difficulty": "easy",
+        "type": "mcq",
+        "text": "[Mathematics MCQ 43] Solve: $2+0$ equals?",
+        "image": "",
+        "options": [
+          {
+            "text": "1",
+            "image": ""
+          },
+          {
+            "text": "2",
+            "image": ""
+          },
+          {
+            "text": "3",
+            "image": ""
+          },
+          {
+            "text": "4",
+            "image": ""
+          }
+        ],
+        "correct": 1
+      },
+      {
+        "subject": "mathematics",
+        "topic": "mathematics topic 4",
+        "difficulty": "medium",
+        "type": "mcq",
+        "text": "[Mathematics MCQ 44] Solve: $2+1$ equals?",
+        "image": "",
+        "options": [
+          {
+            "text": "2",
+            "image": ""
+          },
+          {
+            "text": "3",
+            "image": ""
+          },
+          {
+            "text": "4",
+            "image": ""
+          },
+          {
+            "text": "5",
+            "image": ""
+          }
+        ],
+        "correct": 1
+      },
+      {
+        "subject": "mathematics",
+        "topic": "mathematics topic 5",
+        "difficulty": "hard",
+        "type": "mcq",
+        "text": "[Mathematics MCQ 45] Solve: $2+2$ equals?",
+        "image": "",
+        "options": [
+          {
+            "text": "3",
+            "image": ""
+          },
+          {
+            "text": "4",
+            "image": ""
+          },
+          {
+            "text": "5",
+            "image": ""
+          },
+          {
+            "text": "6",
+            "image": ""
+          }
+        ],
+        "correct": 1
+      },
+      {
+        "subject": "mathematics",
+        "topic": "mathematics topic 1",
+        "difficulty": "easy",
+        "type": "mcq",
+        "text": "[Mathematics MCQ 46] Solve: $2+3$ equals?",
+        "image": "",
+        "options": [
+          {
+            "text": "4",
+            "image": ""
+          },
+          {
+            "text": "5",
+            "image": ""
+          },
+          {
+            "text": "6",
+            "image": ""
+          },
+          {
+            "text": "7",
+            "image": ""
+          }
+        ],
+        "correct": 1
+      },
+      {
+        "subject": "mathematics",
+        "topic": "mathematics topic 2",
+        "difficulty": "medium",
+        "type": "mcq",
+        "text": "[Mathematics MCQ 47] Solve: $2+4$ equals?",
+        "image": "",
+        "options": [
+          {
+            "text": "5",
+            "image": ""
+          },
+          {
+            "text": "6",
+            "image": ""
+          },
+          {
+            "text": "7",
+            "image": ""
+          },
+          {
+            "text": "8",
+            "image": ""
+          }
+        ],
+        "correct": 1
+      },
+      {
+        "subject": "mathematics",
+        "topic": "mathematics topic 3",
+        "difficulty": "hard",
+        "type": "mcq",
+        "text": "[Mathematics MCQ 48] Solve: $2+5$ equals?",
+        "image": "",
+        "options": [
+          {
+            "text": "6",
+            "image": ""
+          },
+          {
+            "text": "7",
+            "image": ""
+          },
+          {
+            "text": "8",
+            "image": ""
+          },
+          {
+            "text": "9",
+            "image": ""
+          }
+        ],
+        "correct": 1
+      },
+      {
+        "subject": "mathematics",
+        "topic": "mathematics topic 4",
+        "difficulty": "easy",
+        "type": "mcq",
+        "text": "[Mathematics MCQ 49] Solve: $2+6$ equals?",
+        "image": "",
+        "options": [
+          {
+            "text": "7",
+            "image": ""
+          },
+          {
+            "text": "8",
+            "image": ""
+          },
+          {
+            "text": "9",
+            "image": ""
+          },
+          {
+            "text": "10",
+            "image": ""
+          }
+        ],
+        "correct": 1
+      },
+      {
+        "subject": "mathematics",
+        "topic": "mathematics topic 5",
+        "difficulty": "medium",
+        "type": "mcq",
+        "text": "[Mathematics MCQ 50] Solve: $2+0$ equals?",
+        "image": "",
+        "options": [
+          {
+            "text": "1",
+            "image": ""
+          },
+          {
+            "text": "2",
+            "image": ""
+          },
+          {
+            "text": "3",
+            "image": ""
+          },
+          {
+            "text": "4",
+            "image": ""
+          }
+        ],
+        "correct": 1
+      },
+      {
+        "subject": "mathematics",
+        "topic": "mathematics numericals",
+        "difficulty": "easy",
+        "type": "integer",
+        "text": "[Mathematics Integer 31] Enter the value of $5+35$.",
+        "image": "",
+        "answer": 40
+      },
+      {
+        "subject": "mathematics",
+        "topic": "mathematics numericals",
+        "difficulty": "medium",
+        "type": "integer",
+        "text": "[Mathematics Integer 32] Enter the value of $5+36$.",
+        "image": "",
+        "answer": 41
+      },
+      {
+        "subject": "mathematics",
+        "topic": "mathematics numericals",
+        "difficulty": "hard",
+        "type": "integer",
+        "text": "[Mathematics Integer 33] Enter the value of $5+37$.",
+        "image": "",
+        "answer": 42
+      },
+      {
+        "subject": "mathematics",
+        "topic": "mathematics numericals",
+        "difficulty": "easy",
+        "type": "integer",
+        "text": "[Mathematics Integer 34] Enter the value of $5+38$.",
+        "image": "",
+        "answer": 43
+      },
+      {
+        "subject": "mathematics",
+        "topic": "mathematics numericals",
+        "difficulty": "medium",
+        "type": "integer",
+        "text": "[Mathematics Integer 35] Enter the value of $5+39$.",
+        "image": "",
+        "answer": 44
+      }
+    ]
+  },
+  "2024": {
+    "shift-1": [
+      {
+        "subject": "physics",
+        "topic": "physics topic 1",
+        "difficulty": "easy",
+        "type": "mcq",
+        "text": "[Physics MCQ 61] Solve: $2+4$ equals?",
+        "image": "",
+        "options": [
+          {
+            "text": "5",
+            "image": ""
+          },
+          {
+            "text": "6",
+            "image": ""
+          },
+          {
+            "text": "7",
+            "image": ""
+          },
+          {
+            "text": "8",
+            "image": ""
+          }
+        ],
+        "correct": 1
+      },
+      {
+        "subject": "physics",
+        "topic": "physics topic 2",
+        "difficulty": "medium",
+        "type": "mcq",
+        "text": "[Physics MCQ 62] Solve: $2+5$ equals?",
+        "image": "",
+        "options": [
+          {
+            "text": "6",
+            "image": ""
+          },
+          {
+            "text": "7",
+            "image": ""
+          },
+          {
+            "text": "8",
+            "image": ""
+          },
+          {
+            "text": "9",
+            "image": ""
+          }
+        ],
+        "correct": 1
+      },
+      {
+        "subject": "physics",
+        "topic": "physics topic 3",
+        "difficulty": "hard",
+        "type": "mcq",
+        "text": "[Physics MCQ 63] Solve: $2+6$ equals?",
+        "image": "",
+        "options": [
+          {
+            "text": "7",
+            "image": ""
+          },
+          {
+            "text": "8",
+            "image": ""
+          },
+          {
+            "text": "9",
+            "image": ""
+          },
+          {
+            "text": "10",
+            "image": ""
+          }
+        ],
+        "correct": 1
+      },
+      {
+        "subject": "physics",
+        "topic": "physics topic 4",
+        "difficulty": "easy",
+        "type": "mcq",
+        "text": "[Physics MCQ 64] Solve: $2+0$ equals?",
+        "image": "",
+        "options": [
+          {
+            "text": "1",
+            "image": ""
+          },
+          {
+            "text": "2",
+            "image": ""
+          },
+          {
+            "text": "3",
+            "image": ""
+          },
+          {
+            "text": "4",
+            "image": ""
+          }
+        ],
+        "correct": 1
+      },
+      {
+        "subject": "physics",
+        "topic": "physics topic 5",
+        "difficulty": "medium",
+        "type": "mcq",
+        "text": "[Physics MCQ 65] Solve: $2+1$ equals?",
+        "image": "",
+        "options": [
+          {
+            "text": "2",
+            "image": ""
+          },
+          {
+            "text": "3",
+            "image": ""
+          },
+          {
+            "text": "4",
+            "image": ""
+          },
+          {
+            "text": "5",
+            "image": ""
+          }
+        ],
+        "correct": 1
+      },
+      {
+        "subject": "physics",
+        "topic": "physics topic 1",
+        "difficulty": "hard",
+        "type": "mcq",
+        "text": "[Physics MCQ 66] Solve: $2+2$ equals?",
+        "image": "",
+        "options": [
+          {
+            "text": "3",
+            "image": ""
+          },
+          {
+            "text": "4",
+            "image": ""
+          },
+          {
+            "text": "5",
+            "image": ""
+          },
+          {
+            "text": "6",
+            "image": ""
+          }
+        ],
+        "correct": 1
+      },
+      {
+        "subject": "physics",
+        "topic": "physics topic 2",
+        "difficulty": "easy",
+        "type": "mcq",
+        "text": "[Physics MCQ 67] Solve: $2+3$ equals?",
+        "image": "",
+        "options": [
+          {
+            "text": "4",
+            "image": ""
+          },
+          {
+            "text": "5",
+            "image": ""
+          },
+          {
+            "text": "6",
+            "image": ""
+          },
+          {
+            "text": "7",
+            "image": ""
+          }
+        ],
+        "correct": 1
+      },
+      {
+        "subject": "physics",
+        "topic": "physics topic 3",
+        "difficulty": "medium",
+        "type": "mcq",
+        "text": "[Physics MCQ 68] Solve: $2+4$ equals?",
+        "image": "",
+        "options": [
+          {
+            "text": "5",
+            "image": ""
+          },
+          {
+            "text": "6",
+            "image": ""
+          },
+          {
+            "text": "7",
+            "image": ""
+          },
+          {
+            "text": "8",
+            "image": ""
+          }
+        ],
+        "correct": 1
+      },
+      {
+        "subject": "physics",
+        "topic": "physics topic 4",
+        "difficulty": "hard",
+        "type": "mcq",
+        "text": "[Physics MCQ 69] Solve: $2+5$ equals?",
+        "image": "",
+        "options": [
+          {
+            "text": "6",
+            "image": ""
+          },
+          {
+            "text": "7",
+            "image": ""
+          },
+          {
+            "text": "8",
+            "image": ""
+          },
+          {
+            "text": "9",
+            "image": ""
+          }
+        ],
+        "correct": 1
+      },
+      {
+        "subject": "physics",
+        "topic": "physics topic 5",
+        "difficulty": "easy",
+        "type": "mcq",
+        "text": "[Physics MCQ 70] Solve: $2+6$ equals?",
+        "image": "",
+        "options": [
+          {
+            "text": "7",
+            "image": ""
+          },
+          {
+            "text": "8",
+            "image": ""
+          },
+          {
+            "text": "9",
+            "image": ""
+          },
+          {
+            "text": "10",
+            "image": ""
+          }
+        ],
+        "correct": 1
+      },
+      {
+        "subject": "physics",
+        "topic": "physics topic 1",
+        "difficulty": "medium",
+        "type": "mcq",
+        "text": "[Physics MCQ 71] Solve: $2+0$ equals?",
+        "image": "",
+        "options": [
+          {
+            "text": "1",
+            "image": ""
+          },
+          {
+            "text": "2",
+            "image": ""
+          },
+          {
+            "text": "3",
+            "image": ""
+          },
+          {
+            "text": "4",
+            "image": ""
+          }
+        ],
+        "correct": 1
+      },
+      {
+        "subject": "physics",
+        "topic": "physics topic 2",
+        "difficulty": "hard",
+        "type": "mcq",
+        "text": "[Physics MCQ 72] Solve: $2+1$ equals?",
+        "image": "",
+        "options": [
+          {
+            "text": "2",
+            "image": ""
+          },
+          {
+            "text": "3",
+            "image": ""
+          },
+          {
+            "text": "4",
+            "image": ""
+          },
+          {
+            "text": "5",
+            "image": ""
+          }
+        ],
+        "correct": 1
+      },
+      {
+        "subject": "physics",
+        "topic": "physics topic 3",
+        "difficulty": "easy",
+        "type": "mcq",
+        "text": "[Physics MCQ 73] Solve: $2+2$ equals?",
+        "image": "",
+        "options": [
+          {
+            "text": "3",
+            "image": ""
+          },
+          {
+            "text": "4",
+            "image": ""
+          },
+          {
+            "text": "5",
+            "image": ""
+          },
+          {
+            "text": "6",
+            "image": ""
+          }
+        ],
+        "correct": 1
+      },
+      {
+        "subject": "physics",
+        "topic": "physics topic 4",
+        "difficulty": "medium",
+        "type": "mcq",
+        "text": "[Physics MCQ 74] Solve: $2+3$ equals?",
+        "image": "",
+        "options": [
+          {
+            "text": "4",
+            "image": ""
+          },
+          {
+            "text": "5",
+            "image": ""
+          },
+          {
+            "text": "6",
+            "image": ""
+          },
+          {
+            "text": "7",
+            "image": ""
+          }
+        ],
+        "correct": 1
+      },
+      {
+        "subject": "physics",
+        "topic": "physics topic 5",
+        "difficulty": "hard",
+        "type": "mcq",
+        "text": "[Physics MCQ 75] Solve: $2+4$ equals?",
+        "image": "",
+        "options": [
+          {
+            "text": "5",
+            "image": ""
+          },
+          {
+            "text": "6",
+            "image": ""
+          },
+          {
+            "text": "7",
+            "image": ""
+          },
+          {
+            "text": "8",
+            "image": ""
+          }
+        ],
+        "correct": 1
+      },
+      {
+        "subject": "physics",
+        "topic": "physics topic 1",
+        "difficulty": "easy",
+        "type": "mcq",
+        "text": "[Physics MCQ 76] Solve: $2+5$ equals?",
+        "image": "",
+        "options": [
+          {
+            "text": "6",
+            "image": ""
+          },
+          {
+            "text": "7",
+            "image": ""
+          },
+          {
+            "text": "8",
+            "image": ""
+          },
+          {
+            "text": "9",
+            "image": ""
+          }
+        ],
+        "correct": 1
+      },
+      {
+        "subject": "physics",
+        "topic": "physics topic 2",
+        "difficulty": "medium",
+        "type": "mcq",
+        "text": "[Physics MCQ 77] Solve: $2+6$ equals?",
+        "image": "",
+        "options": [
+          {
+            "text": "7",
+            "image": ""
+          },
+          {
+            "text": "8",
+            "image": ""
+          },
+          {
+            "text": "9",
+            "image": ""
+          },
+          {
+            "text": "10",
+            "image": ""
+          }
+        ],
+        "correct": 1
+      },
+      {
+        "subject": "physics",
+        "topic": "physics topic 3",
+        "difficulty": "hard",
+        "type": "mcq",
+        "text": "[Physics MCQ 78] Solve: $2+0$ equals?",
+        "image": "",
+        "options": [
+          {
+            "text": "1",
+            "image": ""
+          },
+          {
+            "text": "2",
+            "image": ""
+          },
+          {
+            "text": "3",
+            "image": ""
+          },
+          {
+            "text": "4",
+            "image": ""
+          }
+        ],
+        "correct": 1
+      },
+      {
+        "subject": "physics",
+        "topic": "physics topic 4",
+        "difficulty": "easy",
+        "type": "mcq",
+        "text": "[Physics MCQ 79] Solve: $2+1$ equals?",
+        "image": "",
+        "options": [
+          {
+            "text": "2",
+            "image": ""
+          },
+          {
+            "text": "3",
+            "image": ""
+          },
+          {
+            "text": "4",
+            "image": ""
+          },
+          {
+            "text": "5",
+            "image": ""
+          }
+        ],
+        "correct": 1
+      },
+      {
+        "subject": "physics",
+        "topic": "physics topic 5",
+        "difficulty": "medium",
+        "type": "mcq",
+        "text": "[Physics MCQ 80] Solve: $2+2$ equals?",
+        "image": "",
+        "options": [
+          {
+            "text": "3",
+            "image": ""
+          },
+          {
+            "text": "4",
+            "image": ""
+          },
+          {
+            "text": "5",
+            "image": ""
+          },
+          {
+            "text": "6",
+            "image": ""
+          }
+        ],
+        "correct": 1
+      },
+      {
+        "subject": "physics",
+        "topic": "physics numericals",
+        "difficulty": "easy",
+        "type": "integer",
+        "text": "[Physics Integer 61] Enter the value of $5+65$.",
+        "image": "",
+        "answer": 70
+      },
+      {
+        "subject": "physics",
+        "topic": "physics numericals",
+        "difficulty": "medium",
+        "type": "integer",
+        "text": "[Physics Integer 62] Enter the value of $5+66$.",
+        "image": "",
+        "answer": 71
+      },
+      {
+        "subject": "physics",
+        "topic": "physics numericals",
+        "difficulty": "hard",
+        "type": "integer",
+        "text": "[Physics Integer 63] Enter the value of $5+67$.",
+        "image": "",
+        "answer": 72
+      },
+      {
+        "subject": "physics",
+        "topic": "physics numericals",
+        "difficulty": "easy",
+        "type": "integer",
+        "text": "[Physics Integer 64] Enter the value of $5+68$.",
+        "image": "",
+        "answer": 73
+      },
+      {
+        "subject": "physics",
+        "topic": "physics numericals",
+        "difficulty": "medium",
+        "type": "integer",
+        "text": "[Physics Integer 65] Enter the value of $5+69$.",
+        "image": "",
+        "answer": 74
+      },
+      {
+        "subject": "chemistry",
+        "topic": "chemistry topic 1",
+        "difficulty": "easy",
+        "type": "mcq",
+        "text": "[Chemistry MCQ 61] Solve: $2+4$ equals?",
+        "image": "",
+        "options": [
+          {
+            "text": "5",
+            "image": ""
+          },
+          {
+            "text": "6",
+            "image": ""
+          },
+          {
+            "text": "7",
+            "image": ""
+          },
+          {
+            "text": "8",
+            "image": ""
+          }
+        ],
+        "correct": 1
+      },
+      {
+        "subject": "chemistry",
+        "topic": "chemistry topic 2",
+        "difficulty": "medium",
+        "type": "mcq",
+        "text": "[Chemistry MCQ 62] Solve: $2+5$ equals?",
+        "image": "",
+        "options": [
+          {
+            "text": "6",
+            "image": ""
+          },
+          {
+            "text": "7",
+            "image": ""
+          },
+          {
+            "text": "8",
+            "image": ""
+          },
+          {
+            "text": "9",
+            "image": ""
+          }
+        ],
+        "correct": 1
+      },
+      {
+        "subject": "chemistry",
+        "topic": "chemistry topic 3",
+        "difficulty": "hard",
+        "type": "mcq",
+        "text": "[Chemistry MCQ 63] Solve: $2+6$ equals?",
+        "image": "",
+        "options": [
+          {
+            "text": "7",
+            "image": ""
+          },
+          {
+            "text": "8",
+            "image": ""
+          },
+          {
+            "text": "9",
+            "image": ""
+          },
+          {
+            "text": "10",
+            "image": ""
+          }
+        ],
+        "correct": 1
+      },
+      {
+        "subject": "chemistry",
+        "topic": "chemistry topic 4",
+        "difficulty": "easy",
+        "type": "mcq",
+        "text": "[Chemistry MCQ 64] Solve: $2+0$ equals?",
+        "image": "",
+        "options": [
+          {
+            "text": "1",
+            "image": ""
+          },
+          {
+            "text": "2",
+            "image": ""
+          },
+          {
+            "text": "3",
+            "image": ""
+          },
+          {
+            "text": "4",
+            "image": ""
+          }
+        ],
+        "correct": 1
+      },
+      {
+        "subject": "chemistry",
+        "topic": "chemistry topic 5",
+        "difficulty": "medium",
+        "type": "mcq",
+        "text": "[Chemistry MCQ 65] Solve: $2+1$ equals?",
+        "image": "",
+        "options": [
+          {
+            "text": "2",
+            "image": ""
+          },
+          {
+            "text": "3",
+            "image": ""
+          },
+          {
+            "text": "4",
+            "image": ""
+          },
+          {
+            "text": "5",
+            "image": ""
+          }
+        ],
+        "correct": 1
+      },
+      {
+        "subject": "chemistry",
+        "topic": "chemistry topic 1",
+        "difficulty": "hard",
+        "type": "mcq",
+        "text": "[Chemistry MCQ 66] Solve: $2+2$ equals?",
+        "image": "",
+        "options": [
+          {
+            "text": "3",
+            "image": ""
+          },
+          {
+            "text": "4",
+            "image": ""
+          },
+          {
+            "text": "5",
+            "image": ""
+          },
+          {
+            "text": "6",
+            "image": ""
+          }
+        ],
+        "correct": 1
+      },
+      {
+        "subject": "chemistry",
+        "topic": "chemistry topic 2",
+        "difficulty": "easy",
+        "type": "mcq",
+        "text": "[Chemistry MCQ 67] Solve: $2+3$ equals?",
+        "image": "",
+        "options": [
+          {
+            "text": "4",
+            "image": ""
+          },
+          {
+            "text": "5",
+            "image": ""
+          },
+          {
+            "text": "6",
+            "image": ""
+          },
+          {
+            "text": "7",
+            "image": ""
+          }
+        ],
+        "correct": 1
+      },
+      {
+        "subject": "chemistry",
+        "topic": "chemistry topic 3",
+        "difficulty": "medium",
+        "type": "mcq",
+        "text": "[Chemistry MCQ 68] Solve: $2+4$ equals?",
+        "image": "",
+        "options": [
+          {
+            "text": "5",
+            "image": ""
+          },
+          {
+            "text": "6",
+            "image": ""
+          },
+          {
+            "text": "7",
+            "image": ""
+          },
+          {
+            "text": "8",
+            "image": ""
+          }
+        ],
+        "correct": 1
+      },
+      {
+        "subject": "chemistry",
+        "topic": "chemistry topic 4",
+        "difficulty": "hard",
+        "type": "mcq",
+        "text": "[Chemistry MCQ 69] Solve: $2+5$ equals?",
+        "image": "",
+        "options": [
+          {
+            "text": "6",
+            "image": ""
+          },
+          {
+            "text": "7",
+            "image": ""
+          },
+          {
+            "text": "8",
+            "image": ""
+          },
+          {
+            "text": "9",
+            "image": ""
+          }
+        ],
+        "correct": 1
+      },
+      {
+        "subject": "chemistry",
+        "topic": "chemistry topic 5",
+        "difficulty": "easy",
+        "type": "mcq",
+        "text": "[Chemistry MCQ 70] Solve: $2+6$ equals?",
+        "image": "",
+        "options": [
+          {
+            "text": "7",
+            "image": ""
+          },
+          {
+            "text": "8",
+            "image": ""
+          },
+          {
+            "text": "9",
+            "image": ""
+          },
+          {
+            "text": "10",
+            "image": ""
+          }
+        ],
+        "correct": 1
+      },
+      {
+        "subject": "chemistry",
+        "topic": "chemistry topic 1",
+        "difficulty": "medium",
+        "type": "mcq",
+        "text": "[Chemistry MCQ 71] Solve: $2+0$ equals?",
+        "image": "",
+        "options": [
+          {
+            "text": "1",
+            "image": ""
+          },
+          {
+            "text": "2",
+            "image": ""
+          },
+          {
+            "text": "3",
+            "image": ""
+          },
+          {
+            "text": "4",
+            "image": ""
+          }
+        ],
+        "correct": 1
+      },
+      {
+        "subject": "chemistry",
+        "topic": "chemistry topic 2",
+        "difficulty": "hard",
+        "type": "mcq",
+        "text": "[Chemistry MCQ 72] Solve: $2+1$ equals?",
+        "image": "",
+        "options": [
+          {
+            "text": "2",
+            "image": ""
+          },
+          {
+            "text": "3",
+            "image": ""
+          },
+          {
+            "text": "4",
+            "image": ""
+          },
+          {
+            "text": "5",
+            "image": ""
+          }
+        ],
+        "correct": 1
+      },
+      {
+        "subject": "chemistry",
+        "topic": "chemistry topic 3",
+        "difficulty": "easy",
+        "type": "mcq",
+        "text": "[Chemistry MCQ 73] Solve: $2+2$ equals?",
+        "image": "",
+        "options": [
+          {
+            "text": "3",
+            "image": ""
+          },
+          {
+            "text": "4",
+            "image": ""
+          },
+          {
+            "text": "5",
+            "image": ""
+          },
+          {
+            "text": "6",
+            "image": ""
+          }
+        ],
+        "correct": 1
+      },
+      {
+        "subject": "chemistry",
+        "topic": "chemistry topic 4",
+        "difficulty": "medium",
+        "type": "mcq",
+        "text": "[Chemistry MCQ 74] Solve: $2+3$ equals?",
+        "image": "",
+        "options": [
+          {
+            "text": "4",
+            "image": ""
+          },
+          {
+            "text": "5",
+            "image": ""
+          },
+          {
+            "text": "6",
+            "image": ""
+          },
+          {
+            "text": "7",
+            "image": ""
+          }
+        ],
+        "correct": 1
+      },
+      {
+        "subject": "chemistry",
+        "topic": "chemistry topic 5",
+        "difficulty": "hard",
+        "type": "mcq",
+        "text": "[Chemistry MCQ 75] Solve: $2+4$ equals?",
+        "image": "",
+        "options": [
+          {
+            "text": "5",
+            "image": ""
+          },
+          {
+            "text": "6",
+            "image": ""
+          },
+          {
+            "text": "7",
+            "image": ""
+          },
+          {
+            "text": "8",
+            "image": ""
+          }
+        ],
+        "correct": 1
+      },
+      {
+        "subject": "chemistry",
+        "topic": "chemistry topic 1",
+        "difficulty": "easy",
+        "type": "mcq",
+        "text": "[Chemistry MCQ 76] Solve: $2+5$ equals?",
+        "image": "",
+        "options": [
+          {
+            "text": "6",
+            "image": ""
+          },
+          {
+            "text": "7",
+            "image": ""
+          },
+          {
+            "text": "8",
+            "image": ""
+          },
+          {
+            "text": "9",
+            "image": ""
+          }
+        ],
+        "correct": 1
+      },
+      {
+        "subject": "chemistry",
+        "topic": "chemistry topic 2",
+        "difficulty": "medium",
+        "type": "mcq",
+        "text": "[Chemistry MCQ 77] Solve: $2+6$ equals?",
+        "image": "",
+        "options": [
+          {
+            "text": "7",
+            "image": ""
+          },
+          {
+            "text": "8",
+            "image": ""
+          },
+          {
+            "text": "9",
+            "image": ""
+          },
+          {
+            "text": "10",
+            "image": ""
+          }
+        ],
+        "correct": 1
+      },
+      {
+        "subject": "chemistry",
+        "topic": "chemistry topic 3",
+        "difficulty": "hard",
+        "type": "mcq",
+        "text": "[Chemistry MCQ 78] Solve: $2+0$ equals?",
+        "image": "",
+        "options": [
+          {
+            "text": "1",
+            "image": ""
+          },
+          {
+            "text": "2",
+            "image": ""
+          },
+          {
+            "text": "3",
+            "image": ""
+          },
+          {
+            "text": "4",
+            "image": ""
+          }
+        ],
+        "correct": 1
+      },
+      {
+        "subject": "chemistry",
+        "topic": "chemistry topic 4",
+        "difficulty": "easy",
+        "type": "mcq",
+        "text": "[Chemistry MCQ 79] Solve: $2+1$ equals?",
+        "image": "",
+        "options": [
+          {
+            "text": "2",
+            "image": ""
+          },
+          {
+            "text": "3",
+            "image": ""
+          },
+          {
+            "text": "4",
+            "image": ""
+          },
+          {
+            "text": "5",
+            "image": ""
+          }
+        ],
+        "correct": 1
+      },
+      {
+        "subject": "chemistry",
+        "topic": "chemistry topic 5",
+        "difficulty": "medium",
+        "type": "mcq",
+        "text": "[Chemistry MCQ 80] Solve: $2+2$ equals?",
+        "image": "",
+        "options": [
+          {
+            "text": "3",
+            "image": ""
+          },
+          {
+            "text": "4",
+            "image": ""
+          },
+          {
+            "text": "5",
+            "image": ""
+          },
+          {
+            "text": "6",
+            "image": ""
+          }
+        ],
+        "correct": 1
+      },
+      {
+        "subject": "chemistry",
+        "topic": "chemistry numericals",
+        "difficulty": "easy",
+        "type": "integer",
+        "text": "[Chemistry Integer 61] Enter the value of $5+65$.",
+        "image": "",
+        "answer": 70
+      },
+      {
+        "subject": "chemistry",
+        "topic": "chemistry numericals",
+        "difficulty": "medium",
+        "type": "integer",
+        "text": "[Chemistry Integer 62] Enter the value of $5+66$.",
+        "image": "",
+        "answer": 71
+      },
+      {
+        "subject": "chemistry",
+        "topic": "chemistry numericals",
+        "difficulty": "hard",
+        "type": "integer",
+        "text": "[Chemistry Integer 63] Enter the value of $5+67$.",
+        "image": "",
+        "answer": 72
+      },
+      {
+        "subject": "chemistry",
+        "topic": "chemistry numericals",
+        "difficulty": "easy",
+        "type": "integer",
+        "text": "[Chemistry Integer 64] Enter the value of $5+68$.",
+        "image": "",
+        "answer": 73
+      },
+      {
+        "subject": "chemistry",
+        "topic": "chemistry numericals",
+        "difficulty": "medium",
+        "type": "integer",
+        "text": "[Chemistry Integer 65] Enter the value of $5+69$.",
+        "image": "",
+        "answer": 74
+      },
+      {
+        "subject": "mathematics",
+        "topic": "mathematics topic 1",
+        "difficulty": "easy",
+        "type": "mcq",
+        "text": "[Mathematics MCQ 61] Solve: $2+4$ equals?",
+        "image": "",
+        "options": [
+          {
+            "text": "5",
+            "image": ""
+          },
+          {
+            "text": "6",
+            "image": ""
+          },
+          {
+            "text": "7",
+            "image": ""
+          },
+          {
+            "text": "8",
+            "image": ""
+          }
+        ],
+        "correct": 1
+      },
+      {
+        "subject": "mathematics",
+        "topic": "mathematics topic 2",
+        "difficulty": "medium",
+        "type": "mcq",
+        "text": "[Mathematics MCQ 62] Solve: $2+5$ equals?",
+        "image": "",
+        "options": [
+          {
+            "text": "6",
+            "image": ""
+          },
+          {
+            "text": "7",
+            "image": ""
+          },
+          {
+            "text": "8",
+            "image": ""
+          },
+          {
+            "text": "9",
+            "image": ""
+          }
+        ],
+        "correct": 1
+      },
+      {
+        "subject": "mathematics",
+        "topic": "mathematics topic 3",
+        "difficulty": "hard",
+        "type": "mcq",
+        "text": "[Mathematics MCQ 63] Solve: $2+6$ equals?",
+        "image": "",
+        "options": [
+          {
+            "text": "7",
+            "image": ""
+          },
+          {
+            "text": "8",
+            "image": ""
+          },
+          {
+            "text": "9",
+            "image": ""
+          },
+          {
+            "text": "10",
+            "image": ""
+          }
+        ],
+        "correct": 1
+      },
+      {
+        "subject": "mathematics",
+        "topic": "mathematics topic 4",
+        "difficulty": "easy",
+        "type": "mcq",
+        "text": "[Mathematics MCQ 64] Solve: $2+0$ equals?",
+        "image": "",
+        "options": [
+          {
+            "text": "1",
+            "image": ""
+          },
+          {
+            "text": "2",
+            "image": ""
+          },
+          {
+            "text": "3",
+            "image": ""
+          },
+          {
+            "text": "4",
+            "image": ""
+          }
+        ],
+        "correct": 1
+      },
+      {
+        "subject": "mathematics",
+        "topic": "mathematics topic 5",
+        "difficulty": "medium",
+        "type": "mcq",
+        "text": "[Mathematics MCQ 65] Solve: $2+1$ equals?",
+        "image": "",
+        "options": [
+          {
+            "text": "2",
+            "image": ""
+          },
+          {
+            "text": "3",
+            "image": ""
+          },
+          {
+            "text": "4",
+            "image": ""
+          },
+          {
+            "text": "5",
+            "image": ""
+          }
+        ],
+        "correct": 1
+      },
+      {
+        "subject": "mathematics",
+        "topic": "mathematics topic 1",
+        "difficulty": "hard",
+        "type": "mcq",
+        "text": "[Mathematics MCQ 66] Solve: $2+2$ equals?",
+        "image": "",
+        "options": [
+          {
+            "text": "3",
+            "image": ""
+          },
+          {
+            "text": "4",
+            "image": ""
+          },
+          {
+            "text": "5",
+            "image": ""
+          },
+          {
+            "text": "6",
+            "image": ""
+          }
+        ],
+        "correct": 1
+      },
+      {
+        "subject": "mathematics",
+        "topic": "mathematics topic 2",
+        "difficulty": "easy",
+        "type": "mcq",
+        "text": "[Mathematics MCQ 67] Solve: $2+3$ equals?",
+        "image": "",
+        "options": [
+          {
+            "text": "4",
+            "image": ""
+          },
+          {
+            "text": "5",
+            "image": ""
+          },
+          {
+            "text": "6",
+            "image": ""
+          },
+          {
+            "text": "7",
+            "image": ""
+          }
+        ],
+        "correct": 1
+      },
+      {
+        "subject": "mathematics",
+        "topic": "mathematics topic 3",
+        "difficulty": "medium",
+        "type": "mcq",
+        "text": "[Mathematics MCQ 68] Solve: $2+4$ equals?",
+        "image": "",
+        "options": [
+          {
+            "text": "5",
+            "image": ""
+          },
+          {
+            "text": "6",
+            "image": ""
+          },
+          {
+            "text": "7",
+            "image": ""
+          },
+          {
+            "text": "8",
+            "image": ""
+          }
+        ],
+        "correct": 1
+      },
+      {
+        "subject": "mathematics",
+        "topic": "mathematics topic 4",
+        "difficulty": "hard",
+        "type": "mcq",
+        "text": "[Mathematics MCQ 69] Solve: $2+5$ equals?",
+        "image": "",
+        "options": [
+          {
+            "text": "6",
+            "image": ""
+          },
+          {
+            "text": "7",
+            "image": ""
+          },
+          {
+            "text": "8",
+            "image": ""
+          },
+          {
+            "text": "9",
+            "image": ""
+          }
+        ],
+        "correct": 1
+      },
+      {
+        "subject": "mathematics",
+        "topic": "mathematics topic 5",
+        "difficulty": "easy",
+        "type": "mcq",
+        "text": "[Mathematics MCQ 70] Solve: $2+6$ equals?",
+        "image": "",
+        "options": [
+          {
+            "text": "7",
+            "image": ""
+          },
+          {
+            "text": "8",
+            "image": ""
+          },
+          {
+            "text": "9",
+            "image": ""
+          },
+          {
+            "text": "10",
+            "image": ""
+          }
+        ],
+        "correct": 1
+      },
+      {
+        "subject": "mathematics",
+        "topic": "mathematics topic 1",
+        "difficulty": "medium",
+        "type": "mcq",
+        "text": "[Mathematics MCQ 71] Solve: $2+0$ equals?",
+        "image": "",
+        "options": [
+          {
+            "text": "1",
+            "image": ""
+          },
+          {
+            "text": "2",
+            "image": ""
+          },
+          {
+            "text": "3",
+            "image": ""
+          },
+          {
+            "text": "4",
+            "image": ""
+          }
+        ],
+        "correct": 1
+      },
+      {
+        "subject": "mathematics",
+        "topic": "mathematics topic 2",
+        "difficulty": "hard",
+        "type": "mcq",
+        "text": "[Mathematics MCQ 72] Solve: $2+1$ equals?",
+        "image": "",
+        "options": [
+          {
+            "text": "2",
+            "image": ""
+          },
+          {
+            "text": "3",
+            "image": ""
+          },
+          {
+            "text": "4",
+            "image": ""
+          },
+          {
+            "text": "5",
+            "image": ""
+          }
+        ],
+        "correct": 1
+      },
+      {
+        "subject": "mathematics",
+        "topic": "mathematics topic 3",
+        "difficulty": "easy",
+        "type": "mcq",
+        "text": "[Mathematics MCQ 73] Solve: $2+2$ equals?",
+        "image": "",
+        "options": [
+          {
+            "text": "3",
+            "image": ""
+          },
+          {
+            "text": "4",
+            "image": ""
+          },
+          {
+            "text": "5",
+            "image": ""
+          },
+          {
+            "text": "6",
+            "image": ""
+          }
+        ],
+        "correct": 1
+      },
+      {
+        "subject": "mathematics",
+        "topic": "mathematics topic 4",
+        "difficulty": "medium",
+        "type": "mcq",
+        "text": "[Mathematics MCQ 74] Solve: $2+3$ equals?",
+        "image": "",
+        "options": [
+          {
+            "text": "4",
+            "image": ""
+          },
+          {
+            "text": "5",
+            "image": ""
+          },
+          {
+            "text": "6",
+            "image": ""
+          },
+          {
+            "text": "7",
+            "image": ""
+          }
+        ],
+        "correct": 1
+      },
+      {
+        "subject": "mathematics",
+        "topic": "mathematics topic 5",
+        "difficulty": "hard",
+        "type": "mcq",
+        "text": "[Mathematics MCQ 75] Solve: $2+4$ equals?",
+        "image": "",
+        "options": [
+          {
+            "text": "5",
+            "image": ""
+          },
+          {
+            "text": "6",
+            "image": ""
+          },
+          {
+            "text": "7",
+            "image": ""
+          },
+          {
+            "text": "8",
+            "image": ""
+          }
+        ],
+        "correct": 1
+      },
+      {
+        "subject": "mathematics",
+        "topic": "mathematics topic 1",
+        "difficulty": "easy",
+        "type": "mcq",
+        "text": "[Mathematics MCQ 76] Solve: $2+5$ equals?",
+        "image": "",
+        "options": [
+          {
+            "text": "6",
+            "image": ""
+          },
+          {
+            "text": "7",
+            "image": ""
+          },
+          {
+            "text": "8",
+            "image": ""
+          },
+          {
+            "text": "9",
+            "image": ""
+          }
+        ],
+        "correct": 1
+      },
+      {
+        "subject": "mathematics",
+        "topic": "mathematics topic 2",
+        "difficulty": "medium",
+        "type": "mcq",
+        "text": "[Mathematics MCQ 77] Solve: $2+6$ equals?",
+        "image": "",
+        "options": [
+          {
+            "text": "7",
+            "image": ""
+          },
+          {
+            "text": "8",
+            "image": ""
+          },
+          {
+            "text": "9",
+            "image": ""
+          },
+          {
+            "text": "10",
+            "image": ""
+          }
+        ],
+        "correct": 1
+      },
+      {
+        "subject": "mathematics",
+        "topic": "mathematics topic 3",
+        "difficulty": "hard",
+        "type": "mcq",
+        "text": "[Mathematics MCQ 78] Solve: $2+0$ equals?",
+        "image": "",
+        "options": [
+          {
+            "text": "1",
+            "image": ""
+          },
+          {
+            "text": "2",
+            "image": ""
+          },
+          {
+            "text": "3",
+            "image": ""
+          },
+          {
+            "text": "4",
+            "image": ""
+          }
+        ],
+        "correct": 1
+      },
+      {
+        "subject": "mathematics",
+        "topic": "mathematics topic 4",
+        "difficulty": "easy",
+        "type": "mcq",
+        "text": "[Mathematics MCQ 79] Solve: $2+1$ equals?",
+        "image": "",
+        "options": [
+          {
+            "text": "2",
+            "image": ""
+          },
+          {
+            "text": "3",
+            "image": ""
+          },
+          {
+            "text": "4",
+            "image": ""
+          },
+          {
+            "text": "5",
+            "image": ""
+          }
+        ],
+        "correct": 1
+      },
+      {
+        "subject": "mathematics",
+        "topic": "mathematics topic 5",
+        "difficulty": "medium",
+        "type": "mcq",
+        "text": "[Mathematics MCQ 80] Solve: $2+2$ equals?",
+        "image": "",
+        "options": [
+          {
+            "text": "3",
+            "image": ""
+          },
+          {
+            "text": "4",
+            "image": ""
+          },
+          {
+            "text": "5",
+            "image": ""
+          },
+          {
+            "text": "6",
+            "image": ""
+          }
+        ],
+        "correct": 1
+      },
+      {
+        "subject": "mathematics",
+        "topic": "mathematics numericals",
+        "difficulty": "easy",
+        "type": "integer",
+        "text": "[Mathematics Integer 61] Enter the value of $5+65$.",
+        "image": "",
+        "answer": 70
+      },
+      {
+        "subject": "mathematics",
+        "topic": "mathematics numericals",
+        "difficulty": "medium",
+        "type": "integer",
+        "text": "[Mathematics Integer 62] Enter the value of $5+66$.",
+        "image": "",
+        "answer": 71
+      },
+      {
+        "subject": "mathematics",
+        "topic": "mathematics numericals",
+        "difficulty": "hard",
+        "type": "integer",
+        "text": "[Mathematics Integer 63] Enter the value of $5+67$.",
+        "image": "",
+        "answer": 72
+      },
+      {
+        "subject": "mathematics",
+        "topic": "mathematics numericals",
+        "difficulty": "easy",
+        "type": "integer",
+        "text": "[Mathematics Integer 64] Enter the value of $5+68$.",
+        "image": "",
+        "answer": 73
+      },
+      {
+        "subject": "mathematics",
+        "topic": "mathematics numericals",
+        "difficulty": "medium",
+        "type": "integer",
+        "text": "[Mathematics Integer 65] Enter the value of $5+69$.",
+        "image": "",
+        "answer": 74
+      }
+    ]
+  }
+}
