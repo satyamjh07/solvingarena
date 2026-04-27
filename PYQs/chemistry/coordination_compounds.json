@@ -1,0 +1,56 @@
+[
+  {
+    "id": "chem_coord_001",
+    "subject": "chemistry",
+    "topic": "coordination compounds",
+    "chapter": "Coordination Compounds",
+    "year": 2024,
+    "shift": "S1",
+    "difficulty": "medium",
+    "type": "mcq",
+    "text": "Given below are two statements:\n\n**Statement I:** $[\\text{Co(NH}_3)_6]^{3+}$ is diamagnetic while $[\\text{CoF}_6]^{3-}$ is paramagnetic.\n\n**Statement II:** $[\\text{Ni(CN)}_4]^{2-}$ is square planar while $[\\text{NiCl}_4]^{2-}$ is tetrahedral.\n\nChoose the correct answer:",
+    "image": "",
+    "options": [
+      { "text": "Statement I is false but Statement II is true", "image": "" },
+      { "text": "Both Statement I and Statement II are false", "image": "" },
+      { "text": "Statement I is true but Statement II is false", "image": "" },
+      { "text": "Both Statement I and Statement II are true", "image": "" }
+    ],
+    "correct": 3,
+    "explanation": "$\\text{NH}_3$ is a strong field ligand → low spin $\\text{Co}^{3+}$ (d$^6$) → all electrons paired → **diamagnetic**.\n\n$\\text{F}^-$ is weak field → high spin → 4 unpaired electrons → **paramagnetic**.\n\n$\\text{CN}^-$ forces square planar for Ni$^{2+}$ (d$^8$) → dsp$^2$; weak $\\text{Cl}^-$ → tetrahedral. Both statements are **true**."
+  },
+  {
+    "id": "chem_coord_002",
+    "subject": "chemistry",
+    "topic": "coordination compounds",
+    "chapter": "Coordination Compounds",
+    "year": 2024,
+    "shift": "S2",
+    "difficulty": "hard",
+    "type": "mcq",
+    "text": "**Assertion (A):** The complex $[\\text{Ni(CN)}_4]^{2-}$ is diamagnetic while $[\\text{NiCl}_4]^{2-}$ is paramagnetic.\n\n**Reason (R):** $\\text{CN}^-$ is a strong field ligand that causes pairing of electrons, while $\\text{Cl}^-$ is a weak field ligand that does not cause pairing.\n\nChoose the correct answer:",
+    "image": "",
+    "options": [
+      { "text": "(A) is false but (R) is true", "image": "" },
+      { "text": "Both (A) and (R) are true but (R) is not the correct explanation of (A)", "image": "" },
+      { "text": "Both (A) and (R) are true and (R) is the correct explanation of (A)", "image": "" },
+      { "text": "(A) is true but (R) is false", "image": "" }
+    ],
+    "correct": 2,
+    "explanation": "Ni$^{2+}$ has d$^8$ configuration.\n\n- With strong field $\\text{CN}^-$: dsp$^2$ hybridization → square planar → all electrons paired → **diamagnetic** ✓\n- With weak field $\\text{Cl}^-$: sp$^3$ hybridization → tetrahedral → 2 unpaired electrons → **paramagnetic** ✓\n\nReason correctly explains the assertion."
+  },
+  {
+    "id": "chem_coord_003",
+    "subject": "chemistry",
+    "topic": "coordination compounds",
+    "chapter": "Coordination Compounds",
+    "year": 2023,
+    "shift": "S1",
+    "difficulty": "hard",
+    "type": "integer",
+    "text": "The complex $[\\text{CoCl}_2(\\text{en})_2]\\text{Cl}$ is dissolved in water. If $2.855\\,\\text{g}$ of this complex is treated with excess $\\text{AgNO}_3$ solution, the number of moles of $\\text{AgCl}$ precipitated is $x \\times 10^{-2}$. Find $x$.",
+    "image": "",
+    "answer": 1,
+    "explanation": "Molar mass of $[\\text{CoCl}_2(\\text{en})_2]\\text{Cl}$:\n$= 59 + 2(35.5) + 2(60) + 35.5 = 59 + 71 + 120 + 35.5 = 285.5\\,\\text{g/mol}$\n\nMoles of complex $= \\dfrac{2.855}{285.5} = 0.01\\,\\text{mol}$\n\nOnly the **outer sphere** Cl$^-$ (1 ion) precipitates with AgNO$_3$.\n\nMoles of AgCl $= 0.01 = 1 \\times 10^{-2}$\n\n$\\therefore x = 1$"
+  }
+]

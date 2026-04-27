@@ -1,0 +1,42 @@
+[
+  {
+    "id": "chem_bond_001",
+    "subject": "chemistry",
+    "topic": "chemical bonding",
+    "chapter": "Chemical Bonding",
+    "year": 2024,
+    "shift": "S1",
+    "difficulty": "easy",
+    "type": "mcq",
+    "text": "Which of the following molecules has a linear geometry?",
+    "image": "",
+    "options": [
+      { "text": "$\\text{H}_2\\text{O}$", "image": "" },
+      { "text": "$\\text{NH}_3$", "image": "" },
+      { "text": "$\\text{CO}_2$", "image": "" },
+      { "text": "$\\text{SO}_2$", "image": "" }
+    ],
+    "correct": 2,
+    "explanation": "$\\text{CO}_2$ has **sp hybridisation** of carbon with no lone pairs → **linear geometry** (bond angle 180°).\n\n$\\text{H}_2\\text{O}$: bent (2 lone pairs), $\\text{NH}_3$: pyramidal (1 lone pair), $\\text{SO}_2$: bent (1 lone pair on S)."
+  },
+  {
+    "id": "chem_bond_002",
+    "subject": "chemistry",
+    "topic": "chemical bonding",
+    "chapter": "Chemical Bonding",
+    "year": 2023,
+    "shift": "S2",
+    "difficulty": "medium",
+    "type": "mcq",
+    "text": "The number of $\\sigma$ and $\\pi$ bonds in $\\text{HC}\\equiv\\text{C}-\\text{CH}=\\text{CH}_2$ respectively are:",
+    "image": "",
+    "options": [
+      { "text": "$6\\sigma, 3\\pi$", "image": "" },
+      { "text": "$7\\sigma, 3\\pi$", "image": "" },
+      { "text": "$5\\sigma, 3\\pi$", "image": "" },
+      { "text": "$7\\sigma, 2\\pi$", "image": "" }
+    ],
+    "correct": 1,
+    "explanation": "Structure: H–C≡C–CH=CH₂\n\n$\\sigma$ bonds: H–C (1) + C≡C (1) + C–C (1) + C=C (1) + 2×C–H in =CH₂ (2) + 1 H on terminal = total **7σ**\n\n$\\pi$ bonds: triple bond has 2π + double bond has 1π = **3π**"
+  }
+]
