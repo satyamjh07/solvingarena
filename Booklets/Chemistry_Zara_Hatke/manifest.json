@@ -1,0 +1,24 @@
+{
+  "title": "Chemistry Zara Hatke Questions",
+  "icon": "⚗️",
+  "subjects": {
+    "Inorganic": {
+      "label": "Inorganic",
+      "icon": "🔬",
+      "desc": "Chemical bonding, coordination compounds, and periodic properties",
+      "comingSoon": false
+    },
+    "Organic": {
+      "label": "Organic",
+      "icon": "🌿",
+      "desc": "Reaction mechanisms, name reactions, and organic conversions",
+      "comingSoon": true
+    },
+    "Physical": {
+      "label": "Physical",
+      "icon": "⚡",
+      "desc": "Thermodynamics, equilibrium, electrochemistry, kinetics",
+      "comingSoon": true
+    }
+  }
+}
