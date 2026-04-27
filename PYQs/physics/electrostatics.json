@@ -1,0 +1,42 @@
+[
+  {
+    "id": "phy_elec_001",
+    "subject": "physics",
+    "topic": "electrostatics",
+    "chapter": "Electrostatics",
+    "year": 2024,
+    "shift": "S2",
+    "difficulty": "medium",
+    "type": "mcq",
+    "text": "The electric force between two charges is $F$. If both charges are doubled and the distance halved, the new force is:",
+    "image": "",
+    "options": [
+      { "text": "$F$", "image": "" },
+      { "text": "$4F$", "image": "" },
+      { "text": "$8F$", "image": "" },
+      { "text": "$16F$", "image": "" }
+    ],
+    "correct": 3,
+    "explanation": "By Coulomb's law: $F = k\\frac{q_1 q_2}{r^2}$\n\nNew force: $F' = k\\frac{(2q_1)(2q_2)}{(r/2)^2} = k\\frac{4q_1q_2}{r^2/4} = 16F$"
+  },
+  {
+    "id": "phy_elec_002",
+    "subject": "physics",
+    "topic": "electrostatics",
+    "chapter": "Electrostatics",
+    "year": 2023,
+    "shift": "S1",
+    "difficulty": "hard",
+    "type": "mcq",
+    "text": "Three point charges $+q$, $-q$, and $+q$ are placed at the vertices of an equilateral triangle of side $a$. The potential energy of the system is:",
+    "image": "",
+    "options": [
+      { "text": "$\\dfrac{-kq^2}{a}$", "image": "" },
+      { "text": "$\\dfrac{-kq^2}{3a}$", "image": "" },
+      { "text": "$0$", "image": "" },
+      { "text": "$\\dfrac{kq^2}{a}$", "image": "" }
+    ],
+    "correct": 0,
+    "explanation": "Potential energy = $k\\left[\\frac{(+q)(-q)}{a} + \\frac{(+q)(+q)}{a} + \\frac{(-q)(+q)}{a}\\right]$\n$$= \\frac{k}{a}[-q^2 + q^2 - q^2] = \\frac{-kq^2}{a}$$"
+  }
+]
