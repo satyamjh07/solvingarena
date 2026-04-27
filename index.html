@@ -1,80 +1,234 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>ZEROday Solver</title>
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css"
-    />
-    <script
-      defer
-      src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js"
-    ></script>
-    <script
-      defer
-      src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js"
-    ></script>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;800&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <div class="app-shell">
-      <header class="top-bar glass-card">
-        <div>
-          <p class="brand">ZEROday</p>
-          <p class="tagline">Continuous Question Solving</p>
-        </div>
-        <div class="score-group">
-          <p id="score-display">⚡ Score: 0</p>
-          <p id="streak-display">🔥 Streak: 0</p>
-        </div>
-      </header>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ZEROday — JEE Solver</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css"/>
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Syne:wght@700;800&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+<div class="page">
 
-      <section class="filters glass-card">
-        <div class="filter-item">
-          <label for="subject-filter">Subject</label>
-          <select id="subject-filter"></select>
-        </div>
-        <div class="filter-item">
-          <label for="topic-filter">Topic</label>
-          <select id="topic-filter"></select>
-        </div>
-        <div class="filter-item">
-          <label for="difficulty-filter">Difficulty</label>
-          <select id="difficulty-filter">
-            <option value="all">All</option>
-            <option value="easy">Easy</option>
-            <option value="medium">Medium</option>
-            <option value="hard">Hard</option>
-          </select>
-        </div>
-      </section>
-
-      <main class="question-card glass-card" id="question-card">
-        <p id="progress-text" class="progress">Question 1 / 1</p>
-        <p id="topic-text" class="topic">Topic: --</p>
-        <h1 id="question-text"></h1>
-        <img id="question-image" class="question-image" alt="Question diagram" />
-        <div id="options-container" class="options"></div>
-        <div class="actions">
-          <button id="skip-btn" class="btn ghost">Skip Question</button>
-          <button id="next-btn" class="btn primary" disabled>Next Question</button>
-        </div>
-      </main>
-
-      <section id="empty-state" class="glass-card empty-state hidden">
-        <h2>No questions match your filters.</h2>
-        <p>Try changing Subject, Topic, or Difficulty.</p>
-      </section>
+  <!-- NAVBAR -->
+  <nav class="navbar">
+    <div class="brand">ZERO<span style="opacity:0.5">day</span></div>
+    <div class="nav-links">
+      <button class="nav-btn active" data-screen="home">Dashboard</button>
+      <button class="nav-btn" data-screen="pyq">PYQs</button>
+      <button class="nav-btn" data-screen="mock">Mock Tests</button>
+      <button class="nav-btn" data-screen="booklet">Booklets</button>
     </div>
+    <div class="nav-score" id="nav-score">⚡ 0</div>
+  </nav>
 
-    <script src="script.js"></script>
-  </body>
+  <!-- ════ HOME SCREEN ════ -->
+  <div id="screen-home" class="screen active">
+    <div class="dashboard">
+      <div class="dash-greeting">
+        <h1>Welcome back 👋</h1>
+        <p id="greeting-sub">Here's your progress at a glance</p>
+      </div>
+
+      <!-- Stats -->
+      <div class="stats-grid">
+        <div class="stat-card blue">
+          <div class="stat-label">Total Solved</div>
+          <div class="stat-value" id="stat-total">0</div>
+          <div class="stat-sub">questions attempted</div>
+        </div>
+        <div class="stat-card green">
+          <div class="stat-label">Correct</div>
+          <div class="stat-value" id="stat-correct">0</div>
+          <div class="stat-sub" id="stat-accuracy">— accuracy</div>
+        </div>
+        <div class="stat-card red">
+          <div class="stat-label">Wrong</div>
+          <div class="stat-value" id="stat-wrong">0</div>
+          <div class="stat-sub">need revision</div>
+        </div>
+        <div class="stat-card purple">
+          <div class="stat-label">Score</div>
+          <div class="stat-value" id="stat-score">0</div>
+          <div class="stat-sub" id="stat-streak">🔥 0 streak</div>
+        </div>
+      </div>
+
+      <!-- Mode chooser -->
+      <div class="mode-grid">
+        <div class="mode-card pyq" data-goto="pyq">
+          <div class="mode-icon">📚</div>
+          <h2>PYQ Solver</h2>
+          <p>Solve JEE Main previous year questions, filtered by subject and chapter.</p>
+          <span class="mode-tag live">Live</span>
+        </div>
+        <div class="mode-card mock" data-goto="mock">
+          <div class="mode-icon">🧪</div>
+          <h2>Mock Tests</h2>
+          <p>Full NTA-style 3-hour mock tests with marking scheme and analysis.</p>
+          <span class="mode-tag soon">Coming Soon</span>
+        </div>
+        <div class="mode-card booklet" data-goto="booklet">
+          <div class="mode-icon">📒</div>
+          <h2>Booklets</h2>
+          <p>Curated topic-wise booklets with targeted question sets and solutions.</p>
+          <span class="mode-tag live">Live</span>
+        </div>
+      </div>
+
+      <!-- Charts row -->
+      <div class="dash-row">
+        <div class="dash-section">
+          <h3>Subject-wise Progress</h3>
+          <div id="subject-bars">
+            <div class="subject-bar">
+              <div class="subject-bar-header">
+                <span>Physics</span>
+                <span id="bar-phy-txt">0 / 0</span>
+              </div>
+              <div class="bar-track"><div class="bar-fill physics" id="bar-phy" style="width:0%"></div></div>
+            </div>
+            <div class="subject-bar" style="margin-top:0.8rem">
+              <div class="subject-bar-header">
+                <span>Chemistry</span>
+                <span id="bar-chem-txt">0 / 0</span>
+              </div>
+              <div class="bar-track"><div class="bar-fill chemistry" id="bar-chem" style="width:0%"></div></div>
+            </div>
+            <div class="subject-bar" style="margin-top:0.8rem">
+              <div class="subject-bar-header">
+                <span>Mathematics</span>
+                <span id="bar-math-txt">0 / 0</span>
+              </div>
+              <div class="bar-track"><div class="bar-fill mathematics" id="bar-math" style="width:0%"></div></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="dash-section">
+          <h3>Top 5 Chapters</h3>
+          <div id="top-chapters">
+            <div class="empty-state" style="padding:1.5rem">
+              <p style="font-size:0.85rem">Solve some questions to see your chapter rankings!</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ════ PYQ SCREEN ════ -->
+  <div id="screen-pyq" class="screen">
+    <div class="pyq-wrap">
+
+      <!-- Left panel -->
+      <div>
+        <button class="back-btn" data-screen="home">← Back to Dashboard</button>
+        <div class="subject-panel">
+          <h3>Subject</h3>
+          <button class="subject-btn active" data-subject="physics">
+            <span class="dot dot-physics"></span>Physics
+          </button>
+          <button class="subject-btn" data-subject="chemistry">
+            <span class="dot dot-chemistry"></span>Chemistry
+          </button>
+          <button class="subject-btn" data-subject="mathematics">
+            <span class="dot dot-mathematics"></span>Mathematics
+          </button>
+
+          <div class="chapter-panel">
+            <h3>Chapter</h3>
+            <div id="chapter-list"></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Right: solver -->
+      <div class="solver-main">
+        <!-- Q navigator -->
+        <div class="q-nav-panel">
+          <div class="q-nav-header">
+            <h3 id="qnav-title">Questions</h3>
+            <div class="q-nav-legend">
+              <div class="legend-item"><div class="legend-dot" style="background:var(--green)"></div>Correct</div>
+              <div class="legend-item"><div class="legend-dot" style="background:var(--red)"></div>Wrong</div>
+              <div class="legend-item"><div class="legend-dot" style="background:var(--yellow)"></div>Skipped</div>
+              <div class="legend-item"><div class="legend-dot" style="background:var(--bg3)"></div>Unseen</div>
+            </div>
+          </div>
+          <div class="q-nav-grid" id="q-nav-grid"></div>
+        </div>
+
+        <!-- Question card -->
+        <div class="q-card" id="q-card">
+          <div id="empty-state-q" class="empty-state">
+            <h3>Select a chapter to begin</h3>
+            <p>Choose a subject and chapter from the left panel</p>
+          </div>
+
+          <div id="q-content" class="hidden">
+            <div class="q-meta" id="q-meta"></div>
+            <div class="q-text" id="q-text"></div>
+            <img id="q-image" class="q-image hidden" />
+            <div class="options-grid" id="options-grid"></div>
+
+            <!-- Integer -->
+            <div id="integer-wrap" class="integer-box hidden">
+              <label>Enter your numerical answer:</label>
+              <div style="display:flex;gap:0.7rem;align-items:center;flex-wrap:wrap">
+                <input type="number" step="any" class="integer-input" id="integer-input" />
+                <button class="btn btn-check" id="btn-check-int">Check</button>
+              </div>
+              <div class="integer-feedback" id="integer-feedback"></div>
+            </div>
+
+            <!-- Explanation -->
+            <div class="explanation-box" id="explanation-box">
+              <div class="explanation-label">✦ Solution</div>
+              <div class="explanation-text" id="explanation-text"></div>
+            </div>
+
+            <div class="q-actions">
+              <button class="btn btn-ghost" id="btn-skip">Skip</button>
+              <button class="btn btn-primary" id="btn-next" disabled>Next →</button>
+              <span class="q-progress" id="q-progress">1 / 1</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ════ MOCK TESTS SCREEN ════ -->
+  <div id="screen-mock" class="screen">
+    <div class="coming-soon-wrap">
+      <button class="back-btn" data-screen="home" style="margin:0 auto 2rem">← Back</button>
+      <div class="cs-icon">🧪</div>
+      <h1>Mock Tests</h1>
+      <p>Full NTA-style mock tests with 75 questions, 3-hour timer, detailed analysis, predicted percentile and predicted rank</p>
+      <div class="cs-tags">
+        <div class="cs-tag">NTA Pattern</div>
+        <div class="cs-tag">+4 / -1 Marking</div>
+        <div class="cs-tag">75 Questions</div>
+        <div class="cs-tag">3 Hours</div>
+        <div class="cs-tag">Detailed Analysis</div>
+        <div class="cs-tag">Predicted Percentile</div>
+        <div class="cs-tag">Predicted Rank</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ════ BOOKLETS SCREEN ════ -->
+  <div id="screen-booklet" class="screen">
+    <div id="booklet-content"></div>
+  </div>
+
+</div>
+
+<script src="script.js"></script>
+</body>
 </html>
